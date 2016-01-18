@@ -1,0 +1,28 @@
+---
+layout: post
+title:  "Test Post"
+date:   2016-01-17 23:53:31 +0000
+categories: jekyll update
+---
+
+![Alt text](/images/pic.jpeg "Optional title")
+
+
+{% highlight java linenos %}
+public class HelloWorld {
+    public static void main(String[] args) {
+        System.out.println("Hello, World");
+    }
+}
+{% endhighlight %}
+
+
+{% highlight bash %}
+$ apt-get update
+$ apt-get -y upgrade
+$ apt-get install -y cmake make build-essential python-sphinx protobuf-compiler debhelper tree
+{% endhighlight %}
+
+{% post_url 2016-01-17-welcome-to-jekyll %}
+
+{% gist ogavrisevs/1a1e8439fb324ea30fe9 %}
