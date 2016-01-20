@@ -1,3 +1,11 @@
+
+Cmd:  
+
+`docker run --rm --entrypoint=bash --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll:2.5.3`
+
+Dep.:
+
+```
 #activesupport (4.2.5)
 #addressable (2.4.0, 2.3.8)
 #bundler (1.11.2)
@@ -60,3 +68,4 @@
 # tzinfo (1.2.2)
 #yajl-ruby (1.2.1)
 #yell (2.0.5)
+```
