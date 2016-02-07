@@ -1,71 +1,9 @@
 
-Cmd:  
-
-`docker run --rm --entrypoint=/bin/sh --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll:2.5.3`
-
-Dep.:
+Run local with
+---------------  
 
 ```
-#activesupport (4.2.5)
-#addressable (2.4.0, 2.3.8)
-#bundler (1.11.2)
-#coffee-script (2.4.1)
-#coffee-script-source (1.10.0)
-#colorator (0.1)
-#colored (1.2)
-#ethon (0.8.0)
-#execjs (2.6.0)
-#faraday (0.9.2)
-#ffi (1.9.10)
-#gemoji (2.1.0)
-#html-pipeline (2.2.2)
-#html-proofer (2.6.1)
-#i18n (0.7.0)
-#io-console (0.4.5, 0.4.3)
-#jekyll (3.0.1)
-#jekyll-coffeescript (1.0.1)
-#jekyll-compose (0.4.1)
-#jekyll-feed (0.4.0)
-#jekyll-gist (1.4.0)
-#jekyll-mentions (1.0.0)
-#jekyll-paginate (1.1.0)
-#jekyll-redirect-from (0.9.1)
-#jekyll-sass-converter (1.4.0)
-#jekyll-sitemap (0.9.0)
-#jekyll-watch (1.3.0)
-# jemoji (0.5.1)
-# json (1.8.3, 1.8.1)
-# kramdown (1.9.0)
-# liquid (3.0.6)
-# listen (3.0.5)
-# maruku (0.7.2)
-# mercenary (0.3.5)
-#mini_portile2 (2.0.0)
-#minitest (5.8.3)
-#multipart-post (2.0.0)
-# nokogiri (1.6.7.1)
-# octokit (4.2.0)
-# parallel (1.6.1)
-# posix-spawn (0.3.11)
-# power_assert (0.2.6)
-# psych (2.0.17, 2.0.8)
-# pygments.rb (0.6.3)
-# rake (10.4.2)
-# rb-fsevent (0.9.7)
-# rb-inotify (0.9.5)
-# rdiscount (2.1.8)
-# rdoc (4.2.0)
-# redcarpet (3.3.4)
-# RedCloth (4.2.9)
-# rouge (1.10.1)
-# rubygems-update (2.5.1)
-# safe_yaml (1.0.4)
-# sass (3.4.20)
-# sawyer (0.6.0)
-# test-unit (3.1.5)
-# thread_safe (0.3.5)
-# typhoeus (0.8.0)
-# tzinfo (1.2.2)
-#yajl-ruby (1.2.1)
-#yell (2.0.5)
+docker run --rm --entrypoint=/bin/sh --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll:2.5.3
+
+jekyll serve
 ```
