@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               ogavrisevs.github.io
-tagline:             
+tagline:
 url:                 http://ogavrisevs.github.io
 paginate:            3
 baseurl:             ""

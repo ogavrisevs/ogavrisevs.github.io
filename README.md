@@ -1,7 +1,7 @@
 
 Cmd:  
 
-`docker run --rm --entrypoint=bash --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll:2.5.3`
+`docker run --rm --entrypoint=/bin/sh --volume=$(pwd):/srv/jekyll -it -p 4000:4000 jekyll/jekyll:2.5.3`
 
 Dep.:
 
