@@ -2,6 +2,7 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
+#permalink: short-urls-jekyll
 
 # Setup
 title:               ogavrisevs.github.io
@@ -27,3 +28,6 @@ author:
 version:             2.0.0
 github:
   repo:              https://github.com/poole/poole
+
+pages_list:
+  About: '/about/'

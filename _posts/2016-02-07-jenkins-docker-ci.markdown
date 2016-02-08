@@ -1,8 +1,6 @@
 ---
 layout: post
-title:  "How to build 10k cointainers / h .  "
-date:   2016-02-07 23:53:31 +0000
-categories: jekyll update
+title:  "How to build 10k cointainers / h ."
 ---
 
 Introduction:
