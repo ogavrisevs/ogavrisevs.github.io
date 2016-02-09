@@ -19,9 +19,6 @@ Architecture overview
 ![Alt text](/images/architecture.png "Architecture overview")
 
 
-
-
-
 Jenkins Master
 ===============
 We will use Jenkins to orchestrate builds. Bacause we are looking to make system resilient there will be atlast two Jenkins instances running. We will run Jenkins in container this way we will be able to quickly spin up more Jenkins instances if load increases also it will allow us to restore failed Jenkins instances. Running Jenkins is very simple, we can reuse official Jenkins docker image from [docker hub](https://hub.docker.com/_/jenkins/) :    
@@ -116,7 +113,7 @@ Thread.start {
 
 Pre-Configure Jenkins build jobs.
 ---------------------------------
-To create build jobs we can use [job-dsl](https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin) plugin. This plugin allows to describe build jobs and all steps with simple DSL syntax. Its almost unlimited on what we can describe in job-dsl. To create jobs after Jenkins is started we will use all previous mentioned approaches together : load plugin, store goovy and dsl script in image, execute groovy to create seed job which contains job-dsl script and schedule seed job execution when Jenkins is started. For example to crate simple docker build job:
+To create build jobs we can use [job-dsl](https://wiki.jenkins-ci.org/display/JENKINS/Job+DSL+Plugin) plugin. This plugin allows to describe build jobs and all steps with simple DSL syntax. Its almost unlimited on what we can describe in job-dsl. To create jobs after Jenkins is started we will use all previous mentioned approaches together : load plugin, store goovy and dsl script in image, execute groovy to create seed job which contains job-dsl script and schedule seed job execution when Jenkins is started. For example to crate simple docker build job we need to modify:
 
 
 `Dockerfile`
@@ -182,3 +179,64 @@ freeStyleJob("BuildJenkinsMaster"){
   }
 }
 {% endhighlight %}
+
+
+Jenkins Slaves
+===============
+
+As mentioned previous our goal is to build highly available and scalable system. Jenkins slaves and particular executors on slaves will be place where builds itself will happen. So we need to ensure there will be always enough executors regardless of load. Only way to achieve it is by dynamically provisioning new slaves and there down them when load is dropping. We will use [ec2 jenkins plugin](https://wiki.jenkins-ci.org/display/JENKINS/Amazon+EC2+Plugin) to spin-up  new instances.
+
+`plugins.txt`
+{% highlight text %}
+ec2:1.29
+  node-iterator-api:1.5
+{% endhighlight %}
+
+Because we cannot afford any manual steps we will configure all plugin details with `groovy`. Tricky part is that no all details required by plugin we can hardcoded. For example AWS Security Group or AWS instance profile name are created by AWS CloudFormation template therefore name suffix is randomly generated.
+
+| Name in AWS CF template    | Name when resource is created         |
+| -------------------------- | ------------------------------------- |
+| JenkinsSlaveSecurityGroup  | JenkinsSlaveSecurityGroup-jkh345kjh   |
+| EcsInstanceProfile         | EcsInstanceProfile-sdc34rdsf          |
+
+To get dynamic resource names we will query AWS API with [aws cli](https://aws.amazon.com/cli/) and use [instance metadata service]( http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html). As example with aws.cli we can fetch all security groups and search for one particular by name prefix:    
+
+{% highlight groovy %}
+def sec_groups = "aws --region eu-west-1 ec2 describe-security-groups --output json".execute().text
+def securityGroup = jsonSlurper.parseText(sec_groups).SecurityGroups.GroupName.find { it.contains('JenkinsSlaveSecurityGroup') }
+{% endhighlight %}
+
+With instance metadata we can find AWS subnet id , we will reuse subnet id to create Jenkins slave in same subnet as Jenkins Master. This way we will ensure low network latency between slave and master but redundancy will not suffer because AWS AutoScalingGroup will ensure our Jenkins masters are created in multiple AWS AvailabilityZones.
+
+{% highlight bash %}
+curl http://169.254.169.254/latest/meta-data/network/interfaces/macs/${mac}/subnet-id/     
+{% endhighlight %}
+
+
+Because our main goal is to build docker images we will use [Amazon Linux for ECS]( http://docs.aws.amazon.com/AmazonECS/latest/developerguide/launch_container_instance.html) with preinstalled / preconfigured docker. Last peace missing is to provision new slave with default software  and configuration. For this task we will use [cloud-init]( https://cloudinit.readthedocs.org/en/latest/). Cloud-init is simple set of python scripts and utilities which can be used to install software dependencies and configure Linux system when its boots up. In our example we will install `git`, `java` and `aws-cli` :
+
+{% highlight yaml %}
+#cloud-config
+repo_update: true
+repo_upgrade: security
+
+yum_repos:
+  docker:
+    baseurl: https://yum.dockerproject.org/repo/main/centos/6
+    enabled: true
+    failovermethod: priority
+    gpgcheck: true
+    gpgkey: https://yum.dockerproject.org/gpg
+    name: Docker packages from dockerproject repo
+
+packages:
+  - htop
+  - git
+  - jq
+  - aws-cli
+  - java-1.8.0-openjdk
+ {% endhighlight %}
+
+Now all we need to do is set label to new slave executors and reuse this label in Jenkins jobs where particular docker build steps will be described. When new Jenkins job will be placed in job queue Jenkins will search for executor with particular label and if no executor will be found Jenkins will spin-up new slave to satisfy job dependency for label.  
+
+(labels)[pictures]

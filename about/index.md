@@ -3,7 +3,7 @@ layout: page
 title:  "About"
 ---
 
+{% highlight java%}
+public main java
 
-```
-java
-```
+{% endhighlight %}

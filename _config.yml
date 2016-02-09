@@ -2,7 +2,11 @@
 #
 # Use of `relative_permalinks` ensures post links from the index work properly.
 permalink:           pretty
-#permalink: short-urls-jekyll
+
+markdown:    kramdown
+kramdown:
+  input: GFM
+  toc_levels:     1..6
 
 # Setup
 title:               ogavrisevs.github.io
@@ -20,9 +24,7 @@ sass:
 
 # About/contact
 author:
-  name:              Mark Otto
-  url:               https://twitter.com/mdo
-  email:             markdotto@gmail.com
+  name:              Oskars Gavrisevs
 
 # Custom vars
 version:             2.0.0
@@ -31,3 +33,4 @@ github:
 
 pages_list:
   About: '/about/'
+  Index: '/index/'
