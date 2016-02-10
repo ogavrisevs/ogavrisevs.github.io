@@ -189,17 +189,18 @@ As mentioned previous our goal is to build highly available and scalable system.
 `plugins.txt`
 {% highlight text %}
 ec2:1.29
-  node-iterator-api:1.5
+node-iterator-api:1.5
 {% endhighlight %}
 
-Because we cannot afford any manual steps we will configure all plugin details with `groovy`. Tricky part is that no all details required by plugin we can hardcoded. For example AWS Security Group or AWS instance profile name are created by AWS CloudFormation template therefore name suffix is randomly generated.
+Because we cannot afford any manual steps we will configure all plugin details with `groovy`. Tricky part is that no all details required by plugin we can hardcoded. For example AWS Security Group or AWS instance profile name are created by AWS CloudFormation template therefore resource name ( Physical Id ) consists of randomly generated suffix and CF stack name in prefix.
 
-| Name in AWS CF template    | Name when resource is created         |
-| -------------------------- | ------------------------------------- |
-| JenkinsSlaveSecurityGroup  | JenkinsSlaveSecurityGroup-jkh345kjh   |
-| EcsInstanceProfile         | EcsInstanceProfile-sdc34rdsf          |
+| Name in AWS CF template    | Name when resource is created               |
+|    ( Logical Id )          | ( Physical Id )                             |
+| -------------------------- | ------------------------------------------- |
+| JenkinsSlaveSecurityGroup  | sg-381a425c                                 |
+| JenkinsInstanceProfile     | jenkins-SlaveInstanceProfile-1D8KQ7015SNZ0  |
 
-To get dynamic resource names we will query AWS API with [aws cli](https://aws.amazon.com/cli/) and use [instance metadata service]( http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html). As example with aws.cli we can fetch all security groups and search for one particular by name prefix:    
+To get dynamic resource names we will query AWS API with [aws.cli](https://aws.amazon.com/cli/) and use [instance metadata service]( http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html). As example with aws.cli we can fetch all security groups and search for one particular by name prefix:    
 
 {% highlight groovy %}
 def sec_groups = "aws --region eu-west-1 ec2 describe-security-groups --output json".execute().text

@@ -12,7 +12,7 @@ kramdown:
 title:               ogavrisevs.github.io
 tagline:
 url:                 http://ogavrisevs.github.io
-paginate:            3
+paginate:            1
 baseurl:             ""
 
 # Assets
