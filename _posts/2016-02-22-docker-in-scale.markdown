@@ -1,11 +1,13 @@
 ---
 layout: post
-title:  "How to build 10k cointainers / h ."
+title:  "Building Docker containers in scale."
+
+
 ---
 
 Introduction:
 
-I this article i will describe how to build highly available, highly scaleable build system for docker container. We will use Jenkins to orchestrate build process, Jenkins itself will run in container on AWS.ECS cluster. AWS.ECS cluster will run on autoscaling group. We will spin-up Jenkins Slaves based on load demand. In front we will have AWS.Route53 DNS name and ELB for redundancy. System architecture assumes any part of system can fail and will be restored in initial state automatically, also system will be able to respond on load spikes and will scale up / down build capabilities. We will host all infrastructure on AWS and provision it with CloudFormation template.
+I this article i will describe how to build highly available, highly scaleable build system for docker containers. We will use Jenkins to orchestrate build process, Jenkins itself will run in container on AWS.ECS cluster. AWS.ECS cluster will run on autoscaling group. We will spin-up Jenkins Slaves based on load demand. In front we will have AWS.Route53 DNS name and ELB for redundancy. System architecture assumes any part of system can fail and will be restored in initial state automatically, also system will be able to respond on load spikes and will scale up / down build capabilities. We will host all infrastructure on AWS and provision it with CloudFormation template.
 
 Table Of Content:
 
@@ -16,12 +18,12 @@ Table Of Content:
 Architecture overview
 ======================
 
-![Alt text](/images/architecture.png "Architecture overview")
+![Architecture overview](/images/architecture.png)
 
 
 Jenkins Master
 ===============
-We will use Jenkins to orchestrate builds. Bacause we are looking to make system resilient there will be atlast two Jenkins instances running. We will run Jenkins in container this way we will be able to quickly spin up more Jenkins instances if load increases also it will allow us to restore failed Jenkins instances. Running Jenkins is very simple, we can reuse official Jenkins docker image from [docker hub](https://hub.docker.com/_/jenkins/) :    
+We will use Jenkins to orchestrate builds. Bacause we are looking to make system resilient there will be at least two Jenkins instances running. We will run Jenkins in container this way we will be able to quickly spin up more Jenkins instances if load increases also it will allow us to restore failed Jenkins instances. Running Jenkins is very simple, we can reuse official Jenkins docker image from [docker hub](https://hub.docker.com/_/jenkins/) :    
 
 {% highlight bash %}
 $ docker run -it -p 8080:8080 jenkins
@@ -37,7 +39,7 @@ We need to customize official image with multiple things:
 Pre-Installing Jenkins plugins.
 -------------------------------
 When image with Jenkins will be executed to create container we can execute custom bash scripts.
-One way of installing Jenkins plugins is to download plugin files `*.hpi` and place them in Jenkins plugin folder `/usr/share/jenkins/ref/plugins` before Jenkins applications is started. This is similar process as loading `*.jar` files to Java applications by providing lib path to `%CLASSLOADER`. Officall Jenkins Dockerfile already provides this functionality by "plugins.sh" script and "plugins.txt" file. All we need to do is ensure booth files are stored in docker image and "plugins.sh" is executed when image is started:
+One way of installing Jenkins plugins is to download plugin files `*.hpi` and place them in Jenkins plugin folder `/usr/share/jenkins/ref/plugins` before Jenkins applications is started. This is similar process as loading `*.jar` files to Java applications by providing lib path to `%CLASSLOADER`. Official Jenkins Dockerfile already provides this functionality by "plugins.sh" script and "plugins.txt" file. All we need to do is ensure booth files are stored in docker image and "plugins.sh" is executed when image is started:
 
 
 `Dockerfile`
@@ -240,4 +242,36 @@ packages:
 
 Now all we need to do is set label to new slave executors and reuse this label in Jenkins jobs where particular docker build steps will be described. When new Jenkins job will be placed in job queue Jenkins will search for executor with particular label and if no executor will be found Jenkins will spin-up new slave to satisfy job dependency for label.  
 
-(labels)[pictures]
+For example setting setting job labels: 
+![Jenkins Job Labels](/images/jenkins_job_labels.png)
+
+And slave labels : 
+![Jenkins Slave Labels](/images/jenkins_slave_labels.png)
+
+Fault tolerance
+================
+
+Lets try to understand what type of disasters our system can survive.
+
+Jenkins Master EC2 instance is lost 
+-----------------------------------
+
+In this case AWS Auto Scaling Group will spot number of healthy instances is under threshold and will try to fix this by spinning up new EC2 instances. Amount of time required to create new instance depends on EC2 instance type, AWS ASG settings and amount of provisioning needs to be applied. In our example its about 3-4 min. 
+
+![AWS ASG](/images/aws_asg.png)
+
+Jenkins Master is corrupted
+----------------------------
+
+If for some reason Jenkins Master stops working JVM process exits, container will change state from `RUNNING` to `STOPPED` ( for example JVM dies with not enough memory error, etc). AWS ECS scheduler will try to restore cluster state and spin up new containers. Also this applies if instance is lost and new EC2 instance  is created AWS ECS will start new container on new instance as soon as instance will join ECS cluster.    
+
+![AWS ECS](/images/aws_ecs.png)
+
+In setup with one ELB and at least two Jenkins masters, failure of one jenkins master instance or jenkins master container will not affect end user because ELB in doing constant health check for jenkins process running in container. These are simple HTTP request on `/` endpoint but as soon as health check will fail EBL will stop forwarding traffic. And as soon as new container is started and ELB health check gets `HTTP 200` response `live` traffic will be forwarded to new container.   
+
+![ELB health check](/images/elb_health_check_s.png)
+
+Jenkins Slave is lost
+--------------------
+
+In case of loosing Jenkins Slave ( can be due to network issues ) next time build job will appear in job queue and jenkins scheduler will not be able to find executor with required label jenkins master will ask `ECS` plugin to create required executors. Plugin will use authority by AWS IAM role ( provided by instance profile ) and will create new EC2 instance, as soon as `sshd` daemon on new instance will start to respond to requests jenkins master will ssh to instance preinstall required tools and will place instance to build executor pool. Time required to create new executors depends on instance type (size) and amount of provisioning required in our case its about ~90 sec.  
