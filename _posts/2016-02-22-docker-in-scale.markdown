@@ -8,7 +8,7 @@ Introduction
 
 I this article i will describe how to build highly available, highly scaleable build system for docker containers. We will use Jenkins to orchestrate docker build process, Jenkins itself will run in container on AWS ECS cluster. AWS ECS cluster will run on AWS Auto Scaling Group (ASG). We will spin-up Jenkins Slaves based on load demand. In front we will have AWS Route53 DNS name and ELB for redundancy. System architecture assumes any part of system can fail and will be restored in initial state automatically, also system will be able to respond on load spikes and will scale up / down build capabilities. We will host all infrastructure on AWS and provision it with CloudFormation template.
 
-**Table Of Content:**
+__Table Of Content__
 
 * TOC
 {:toc}
