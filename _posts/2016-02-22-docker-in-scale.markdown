@@ -1,26 +1,26 @@
 ---
 layout: post
 title:  "Building Docker containers in scale."
-
-
 ---
 
-Introduction:
+Introduction
+-------------
 
-I this article i will describe how to build highly available, highly scaleable build system for docker containers. We will use Jenkins to orchestrate build process, Jenkins itself will run in container on AWS.ECS cluster. AWS.ECS cluster will run on autoscaling group. We will spin-up Jenkins Slaves based on load demand. In front we will have AWS.Route53 DNS name and ELB for redundancy. System architecture assumes any part of system can fail and will be restored in initial state automatically, also system will be able to respond on load spikes and will scale up / down build capabilities. We will host all infrastructure on AWS and provision it with CloudFormation template.
+I this article i will describe how to build highly available, highly scaleable build system for docker containers. We will use Jenkins to orchestrate docker build process, Jenkins itself will run in container on AWS ECS cluster. AWS ECS cluster will run on AWS Auto Scaling Group (ASG). We will spin-up Jenkins Slaves based on load demand. In front we will have AWS Route53 DNS name and ELB for redundancy. System architecture assumes any part of system can fail and will be restored in initial state automatically, also system will be able to respond on load spikes and will scale up / down build capabilities. We will host all infrastructure on AWS and provision it with CloudFormation template.
 
-Table Of Content:
+**Table Of Content:**
 
 * TOC
 {:toc}
-
 
 Architecture overview
 ======================
 
 ![Architecture overview](/images/architecture.png)
 
+As mentioned in front we will have AWS Route53 DNS name pointing to ELB. ELB itself will register all running containers within Jenkins Master. We will not use `sticky` sessions so each time user refresh page he can be redirected to any of containers running Jenkins Master. Containers will be served on AWS ECS cluster any failed containers will be restarted or rerun by AWS ECS scheduler. Actual build agents (EC2 instances) will be created and attached to Jenkins Master executor pool by `EC2` plugin. It allows to respond to any load demand (requests to build docker containers ) and scale-up or down within ~90 sec. (precise time depends on  AWS EC2 instance type ).      
 
+ 
 Jenkins Master
 ===============
 We will use Jenkins to orchestrate builds. Bacause we are looking to make system resilient there will be at least two Jenkins instances running. We will run Jenkins in container this way we will be able to quickly spin up more Jenkins instances if load increases also it will allow us to restore failed Jenkins instances. Running Jenkins is very simple, we can reuse official Jenkins docker image from [docker hub](https://hub.docker.com/_/jenkins/) :    
@@ -202,14 +202,14 @@ Because we cannot afford any manual steps we will configure all plugin details w
 | JenkinsSlaveSecurityGroup  | sg-381a425c                                 |
 | JenkinsInstanceProfile     | jenkins-SlaveInstanceProfile-1D8KQ7015SNZ0  |
 
-To get dynamic resource names we will query AWS API with [aws.cli](https://aws.amazon.com/cli/) and use [instance metadata service]( http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html). As example with aws.cli we can fetch all security groups and search for one particular by name prefix:    
+To get dynamic resource names we will query AWS API with [aws.cli](https://aws.amazon.com/cli/) and use [instance metadata service]( http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/ec2-instance-metadata.html). As example with AWS CLI we can fetch all security groups and search for one particular by name prefix:    
 
 {% highlight groovy %}
 def sec_groups = "aws --region eu-west-1 ec2 describe-security-groups --output json".execute().text
 def securityGroup = jsonSlurper.parseText(sec_groups).SecurityGroups.GroupName.find { it.contains('JenkinsSlaveSecurityGroup') }
 {% endhighlight %}
 
-With instance metadata we can find AWS subnet id , we will reuse subnet id to create Jenkins slave in same subnet as Jenkins Master. This way we will ensure low network latency between slave and master but redundancy will not suffer because AWS AutoScalingGroup will ensure our Jenkins masters are created in multiple AWS AvailabilityZones.
+With instance metadata we can find AWS subnet id , we will reuse subnet id to create Jenkins slave in same subnet as Jenkins Master. This way we will ensure low network latency between slave and master but redundancy will not suffer because AWS ASG will ensure our Jenkins masters are created in multiple AWS AvailabilityZones.
 
 {% highlight bash %}
 curl http://169.254.169.254/latest/meta-data/network/interfaces/macs/${mac}/subnet-id/     
@@ -242,21 +242,17 @@ packages:
 
 Now all we need to do is set label to new slave executors and reuse this label in Jenkins jobs where particular docker build steps will be described. When new Jenkins job will be placed in job queue Jenkins will search for executor with particular label and if no executor will be found Jenkins will spin-up new slave to satisfy job dependency for label.  
 
-For example setting setting job labels: 
-![Jenkins Job Labels](/images/jenkins_job_labels.png)
-
-And slave labels : 
-![Jenkins Slave Labels](/images/jenkins_slave_labels.png)
+![Jenkins Job Labels](/images/jenkins_labels.png)
 
 Fault tolerance
 ================
 
 Lets try to understand what type of disasters our system can survive.
 
-Jenkins Master EC2 instance is lost 
+Jenkins Master AWS EC2 instance is lost 
 -----------------------------------
 
-In this case AWS Auto Scaling Group will spot number of healthy instances is under threshold and will try to fix this by spinning up new EC2 instances. Amount of time required to create new instance depends on EC2 instance type, AWS ASG settings and amount of provisioning needs to be applied. In our example its about 3-4 min. 
+In this case AWS ASG will spot number of healthy instances is under threshold and will try to fix this by spinning up new AWS EC2 instances. Amount of time required to create new instance depends on EC2 instance type, AWS ASG settings and amount of provisioning needs to be applied. In our example its about 3-4 min. 
 
 ![AWS ASG](/images/aws_asg.png)
 
@@ -275,3 +271,8 @@ Jenkins Slave is lost
 --------------------
 
 In case of loosing Jenkins Slave ( can be due to network issues ) next time build job will appear in job queue and jenkins scheduler will not be able to find executor with required label jenkins master will ask `ECS` plugin to create required executors. Plugin will use authority by AWS IAM role ( provided by instance profile ) and will create new EC2 instance, as soon as `sshd` daemon on new instance will start to respond to requests jenkins master will ssh to instance preinstall required tools and will place instance to build executor pool. Time required to create new executors depends on instance type (size) and amount of provisioning required in our case its about ~90 sec.  
+
+Links
+=====
+
+You can find sample project on GitHub [ogavrisevs/JenkinsDockerCi](https://github.com/ogavrisevs/JenkinsDockerCi). Feel free to clone and modify repo also any comments future requests are welcomed.  

@@ -1,5 +1,10 @@
 
-Run local with
+About
+-----
+
+This repo contains private blog [ogavrisevs.github.io](http://ogavrisevs.github.io/) source code. Blog runs on Jekyll engine and serves in GitHub Pages. 
+
+Run local with: 
 ---------------  
 
 ```
