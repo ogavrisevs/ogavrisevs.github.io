@@ -16,3 +16,7 @@ docker run --rm --entrypoint=/bin/sh --volume=$(pwd):/srv/jekyll -it -p 4000:400
 
 jekyll serve -w --force_polling -V
 ```
+
+Ref: 
+
+[Pygments lexers](http://pygments.org/docs/lexers/)
