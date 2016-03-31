@@ -7,10 +7,13 @@ Introduction
 ------------
 {:.no_toc}
 
-By default, when you install and start Docker on Linux, Docker-Client (cli) access Docker-Engine on local host with unix `socket`. Docker-Engine allows any process to access api from local host. Yes, that's right Docker-Engine is nothing more than small web server exposing REST api with root access to Linux kernel (cgroups, kernel namespaces, etc.). In this post i will show how to access Docker-Engine over network (tcp) and how to secure this communication using TLS ( client / server certificates ).
+By default, when you install and start Docker on Linux, Docker-Client (cli) access Docker-Engine on local host with unix `socket`. Docker-Engine allows any process to access api from local host. Yes, that's right Docker-Engine is nothing more than small web server exposing REST API with root access to Linux kernel functionality (cgroups, kernel namespaces, etc.). In this post I will show how to access Docker-Engine over network (tcp) and how to secure this communication using TLS ( client / server certificates ).
 
 ![Docker overview](/images/2016-03-30-secure-docker/docker-tls.png)
 
+What is TLS ?
+
+> The TLS protocol allows client-server applications to communicate across a network in a way designed to prevent eavesdropping and tampering (3).
 
 Steps :
 -------
@@ -164,18 +167,52 @@ Please notice sentence `-H unix:///var/run/docker.sock`, by this we will allow t
 
 And check docker logs for any error message:  
 
-{% highlight bash %}
+{% highlight bas1h %}
 less /var/log/docker
 {% endhighlight %}
 
 Test Docker-Client using newly generated certs.
 -----------------------------------------------
 
-Last peace we need to test can we reach Docker-Engine from Docker-Client. Lets switch back to client instance and instruct Docker-client (CLI) to use remote Docker-Engine: 
+Last piece, we need to test can we reach Docker-Engine from Docker-Client. Lets switch back to client instance and instruct Docker-client (CLI) to use remote Docker-Engine: 
 
 {% highlight bash %}
 docker --tlsverify --tlskey=key.pem --tlscacert=ca.pem \
   --tlscert=cert.pem -H=123.123.123.123:2376 version
+{% endhighlight %}
+
+Lets ask Docker-Engine to return server version : 
+
+{% highlight bash %}
+client$ docker --tlsverify --tlskey=key.pem \
+  --tlscacert=ca.pem --tlscert=cert.pem \
+  -H=123.123.123.123:2376 version
+Client:
+ Version:      1.9.0
+ API version:  1.21
+ Go version:   go1.4.3
+ Git commit:   76d6bc9
+ Built:        Tue Nov  3 19:20:09 UTC 2015
+ OS/Arch:      darwin/amd64
+
+Server:
+ Version:      1.9.1
+ API version:  1.21
+ Go version:   go1.4.2
+ Git commit:   a34a1d5/1.9.1
+ Built:
+ OS/Arch:      linux/amd64
+{% endhighlight %}
+
+As we can see client and server versions are different. 
+We can simplify process of typing same commands over and over by setting env. variables. 
+
+{% highlight bash %}
+export DOCKER_CERT_PATH=~/.docker/
+export DOCKER_HOST=tcp://123.123.123.123:2376
+export DOCKER_TLS_VERIFY=1
+
+client$ dockerversion
 {% endhighlight %}
 
 
@@ -185,4 +222,4 @@ References:
 
 * [Protect the Docker daemon socket](https://docs.docker.com/engine/security/https/)
 * [Using the TLS certificates with Docker Swarm](http://tech.paulcz.net/2016/01/secure-docker-with-tls)
-
+* [Transport Layer Security](https://en.wikipedia.org/wiki/Transport_Layer_Security)
