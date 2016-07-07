@@ -5,7 +5,7 @@ title:  "About Me"
 
 ![Oskars Gavrisevs](/images/profile_pic.jpg "Oskars Gavrisevs")
 
-Hi my name is Oskars Gavrisevs, 14 years ago i discovered => you get paid good money for breaking and fixing computers, since then I spent lot of time and effort to masters these skills.
+Hi, my name is Oskars Gavrisevs, 14 years ago I discovered => you get paid good money for breaking and fixing computers since then I spent a lot of time and effort to masters these skills.
 
 My main areas of interest include :
 
@@ -13,7 +13,7 @@ My main areas of interest include :
 * Continuous Integration / Continuous Deployment Systems
 * Programming ( JVM stack + Python )
 * OpenSource
-* Robotics ( Quadcopters / Lego mindstorm )
+* Robotics ( Quadcopters / Lego Mindstorm )
 * Embedded computers ( RaspberryPi )
 * Bicycling
 

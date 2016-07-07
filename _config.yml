@@ -13,7 +13,16 @@ title:               ogavrisevs.github.io
 tagline:
 url:                 http://ogavrisevs.github.io
 paginate:            1
+paginate_path:       "page:num"
 baseurl:             ""
+
+#jekyll-paginate, jekyll-gist]
+
+gems:
+  - jekyll-paginate
+  - jekyll-gist
+
+quiet:    false
 
 # Assets
 #
