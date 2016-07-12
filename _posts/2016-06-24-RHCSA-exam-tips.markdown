@@ -32,11 +32,7 @@ Here are some tips I can share:
 References:
 -----------
 * [1] [Red Hat RHCA/RHCSE 7 Cert Guide: Red Hat Enterprise Linux 7 (by Sander van Vugt)](https://www.amazon.com/RHCSA-RHCE-Cert-Guide-Certification/dp/0789754053)
-
 * [2] [RHCSA & RHCE Red Hat Enterprise Linux 7: Training and Exam Preparation Guide, Third Edition (by Asghar Ghori)](https://www.amazon.co.uk/RHCSA-RHCE-Red-Enterprise-Linux-ebook/dp/B00WFEIS0S)
-
 * [Useful information regarding exam](https://www.certdepot.net/rhel7-rhcsa-ex200)
-
 * [Notes and Task samples ](https://github.com/ogavrisevs/RHCSA-RHCE-CodeExamples)
-
 * [Sander van Vugt youtube channel](https://www.youtube.com/channel/UComgXoI6pysmetOzuNH_TDQ)

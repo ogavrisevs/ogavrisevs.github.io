@@ -5,6 +5,7 @@ title:  "Building Docker containers in scale."
 
 Introduction
 -------------
+{:.no_toc}
 
 I this article i will describe how to build highly available, highly scaleable build system for docker containers. We will use Jenkins to orchestrate docker build process, Jenkins itself will run in container on AWS ECS cluster. AWS ECS cluster will run on AWS Auto Scaling Group (ASG). We will spin-up Jenkins Slaves based on load demand. In front we will have AWS Route53 DNS name and ELB for redundancy. System architecture assumes any part of system can fail and will be restored in initial state automatically, also system will be able to respond on load spikes and will scale up / down build capabilities. We will host all infrastructure on AWS and provision it with CloudFormation template.
 
@@ -20,7 +21,7 @@ Architecture overview
 
 As mentioned in front we will have AWS Route53 DNS name pointing to ELB. ELB itself will register all running containers within Jenkins Master. We will not use `sticky` sessions so each time user refresh page he can be redirected to any of containers running Jenkins Master. Containers will be served on AWS ECS cluster any failed containers will be restarted or rerun by AWS ECS scheduler. Actual build agents (EC2 instances) will be created and attached to Jenkins Master executor pool by `EC2` plugin. It allows to respond to any load demand (requests to build docker containers ) and scale-up or down within ~90 sec. (precise time depends on  AWS EC2 instance type ).      
 
- 
+
 Jenkins Master
 ===============
 We will use Jenkins to orchestrate builds. Bacause we are looking to make system resilient there will be at least two Jenkins instances running. We will run Jenkins in container this way we will be able to quickly spin up more Jenkins instances if load increases also it will allow us to restore failed Jenkins instances. Running Jenkins is very simple, we can reuse official Jenkins docker image from [docker hub](https://hub.docker.com/_/jenkins/) :    
@@ -249,10 +250,10 @@ Fault tolerance
 
 Lets try to understand what type of disasters our system can survive.
 
-Jenkins Master AWS EC2 instance is lost 
+Jenkins Master AWS EC2 instance is lost
 -----------------------------------
 
-In this case AWS ASG will spot number of healthy instances is under threshold and will try to fix this by spinning up new AWS EC2 instances. Amount of time required to create new instance depends on EC2 instance type, AWS ASG settings and amount of provisioning needs to be applied. In our example its about 3-4 min. 
+In this case AWS ASG will spot number of healthy instances is under threshold and will try to fix this by spinning up new AWS EC2 instances. Amount of time required to create new instance depends on EC2 instance type, AWS ASG settings and amount of provisioning needs to be applied. In our example its about 3-4 min.
 
 ![AWS ASG](/images/aws_asg.png)
 
