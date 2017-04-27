@@ -21,6 +21,11 @@ baseurl:             ""
 gems:
   - jekyll-paginate
   - jekyll-gist
+#  - jekyll-github-metadata
+  - jekyll-mentions
+  - jekyll-redirect-from
+  - jekyll-sitemap
+  - jemoji
 
 quiet:    false
 

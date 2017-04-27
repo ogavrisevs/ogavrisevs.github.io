@@ -21,3 +21,7 @@ You can find more about me on :
 
 * [LinkedIn Profile](https://lv.linkedin.com/in/oskarsg)
 * [Github](https://github.com/ogavrisevs)
+
+Contact ME :
+
+* **oskars[one-dot]gavrisevs[sobaka]gmail[single-dot]com**
