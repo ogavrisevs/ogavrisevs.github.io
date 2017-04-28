@@ -122,7 +122,7 @@ Next thing we need is place where to execute our container and storage of video.
 
 Im going to use **Amazon Linux AMI** optimized for **AWS.ECS** (read: preinstalled with `docker 1.12` as of this date). Check documentation for other regions [http://docs.aws.amazon.com/AmazonECS](http://docs.aws.amazon.com/AmazonECS/latest/developerguide/launch_container_instance.html) if you dont want to spin up instance in **Frankfur** (closest to me) chose other region and **AMI** id.
 
-Lest create secutriy group first:
+Lest create security group first:
 
 ```console
 user$ aws --profile=ec2-user --region eu-central-1 \
@@ -212,7 +212,7 @@ WORKDIR /home/vcl
 CMD cd && ./run.sh
 ```
 
-[run.sh](http://)
+[run.sh](https://github.com/ogavrisevs/sec-cam/blob/master/run.sh)
 
 ```bash
 #!/bin/bash
