@@ -55,7 +55,6 @@ Noslēgums.
 
 Lai gan divas dienas pavadot konstantās sāpēs un ciešanās jau dienu pēc pasākuma pēcgarša ir ļoti pozitīva. Sastrēgumi vairs tā nekaitina, ir pārsvarā tikai pozitīvas atmiņas par fantastiskajiem cilvēkiem kurus sastapām distancē. Par dabas skaistumu mazajiem rojas mērsraga, engures piejūras ciemiem. Ja arī ir dusmas tad tikai uz sevi ka nepietiekami labi sagatavojos pasākumam. 
 
-<center>IR JAIET !</center> 
-===========================
+<center>**IR JAIET !**</center> 
 
 PS (Īpašs paldies [abragciema kempinga](http://www.abragciems.lv) saimniecei par gardo zupu un saldo!)
