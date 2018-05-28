@@ -7,7 +7,7 @@ This repo contains private blog [ogavrisevs.github.io](http://ogavrisevs.github.
 Run local with (Native Docker on mac) :
 ---------------  
 
-    docker run -it -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages:112
+    docker run -it -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
 
 Ref:
 

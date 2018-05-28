@@ -16,16 +16,8 @@ paginate:            1
 paginate_path:       "page:num"
 baseurl:             ""
 
-#jekyll-paginate, jekyll-gist]
-
-gems:
+plugins:
   - jekyll-paginate
-  - jekyll-gist
-#  - jekyll-github-metadata
-  - jekyll-mentions
-  - jekyll-redirect-from
-  - jekyll-sitemap
-  - jemoji
 
 quiet:    false
 
@@ -47,4 +39,4 @@ github:
 
 pages_list:
   About: '/about/'
-  Index: '/index/'
+  Index: '/toc/'

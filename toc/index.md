@@ -1,6 +1,6 @@
 ---
 layout: page
-title:  "Page index"
+title:  "TOC"
 ---
 
 <ul>
