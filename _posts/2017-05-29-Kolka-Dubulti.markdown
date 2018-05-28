@@ -45,10 +45,10 @@ Kā čučēt. 
 
 Dilēma vienmēr ir starp komfortu un mantu daudzumu. Protams var ņemt līdz paklājiņu un guļammaisu bet tad tas viss ir jāstiep mugurā 136km garumā kur katriem 100 g. ir nozīmes. Mūsu stratēģija bija nest mazāk un iet ātrāk (kā parasti nekas nesanāca pēc plāna). Gulēšanai līdzi bija folijas segas un dažas plēves lai gan folijas sega var sasildīt komforts minimāls vienu brīdi ir auksti tad karsti tādā plēvē var ļoti fiksi izsust. Nākam reiz es drošvien mēģināšu pasūtīt kokos iekaramos guļammaisu (“gamaku”). Jau pirms došanās startā biju tādu noskatijis diemžēl nepaspēju pasūtīt. Distamcē redzēju ka daudzi tādus izmantoja priekšrocība tada  ka viņi ir ļoti viegli (~200 g) pieļauju ka neilons labi pasargā no vēja un nedaudz “tur” siltumu un cenas ziņā ļoti pieņemams variants (~20 gbp no amazones).
 
-![Hammoks](/images/2017-06-29-Kolka-Dubulti/hammock.jpg)
+![Hammoks](/images/2017-05-29-Kolka-Dubulti/hammock.jpg)
 
 Kā trūkumu var minēt ka nav aizsadzības pret lietu bet šo jautājumu var risināt novelkot vel vienu virvi un iekarot [tentu](https://www.amazon.com/Portable-Lightweight-Waterproof-Shelter-Sunshade/dp/B01ISTXD1W) tā lai abi gali tuvu pie zemes (+~600 gr + ~ 30 usd. ).  
-![Lietus pārsegs](/images/2017-06-29-Kolka-Dubulti/tent_trap.jpg)
+![Lietus pārsegs](/images/2017-05-29-Kolka-Dubulti/tent_trap.jpg)
 
 Noslēgums.
 ----------
