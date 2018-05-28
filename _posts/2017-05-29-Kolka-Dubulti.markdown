@@ -14,7 +14,7 @@ Pārdomas ieteikumi tiem kas vel mēģinās. 
 
 Ir 1.diena 29.maijs.2017 16.st pēc finiša Dubultos (~50 stundas distancē) gribās pierakstīt dažas atziņas ko guvu no šī pārgājiena. Pašam meklējot info pirms pārgājiena un plānojot ko ņemt līdz nemaz tik daudz resursu neatradu par šo tēmu tamdēļ domāju ka varētu būt noderīgi.
 
-![Aproce](/images/2017-06-29-Kolka-Dubulti/20170529_135207_m.jpg)
+![Aproce](/images/2017-05-29-Kolka-Dubulti/20170529_135207_m.jpg)
 
 Velns ir detaļās. 
 -----------------
@@ -24,16 +24,16 @@ Pirmais un svarīgākais ir kājās! jo problēmas ar kājām piemeklē gandrīz
 * **Pēda nedrīkst būt saspiesta**. Pārāk stingi sašnorētā bota pēc 20 km liks manīt par sevi ne tanī labākajā veidā. Tas pats ar stingrām zeķēm,- kopresijas zeķes neļauj “piedzīties” kājām bet tanī pašā laikā sapiež kāju.
 * **Čekojat smiltis**. Smiltis kas iekļuvušas kurpē/zeķē ir labs priekšvēstnesis tulznām. Kurpes / botas regulāri ir jātīra no smiltīm viens paņēmiens ir vilkt divas zeķes pirmā zeķe nedaudz aiztur smilti un neļauj smiltīm nokļūt līdz kājai. Atkarībā no apaviem ja tie ir pilnībā noslēgti (nav sietiņi / caurumi) laba opcija ir smilšu bahilas.
 
-![Smilšu bahilas](/images/2017-06-29-Kolka-Dubulti/sand_gaiters.jpg)
+![Smilšu bahilas](/images/2017-05-29-Kolka-Dubulti/sand_gaiters.jpg)
 
 * Ja tulznas ir izveidojušās lielako ties tās turpinās “augt” tamdēļ **svarīgi ir tulznas apkopt**. Pirmais ja ir iespēja tulzna ir jānotīra jāpārspiež / jāpārdur / jāpārgriež jāizspiež un jānotin ar pāksteri. Lielajā tulznām liekam plāksteri ar marli un noteipojam. 
 * Apavu izvēle. Šis ir bezgalīgs temats bet dažas atziņas. Manas Adidas SuperNov ir slikta izvēle jo purngalā tās laiž iekšā smiltis un ārā tās netiek. Kā arī botu balsts ir ļoti stings pateicoties tam pirmās tulznas bija klāt pirmajos 30 km.
 
-![Adidas](/images/2017-06-29-Kolka-Dubulti/adidas.jpg)
+![Adidas](/images/2017-05-29-Kolka-Dubulti/adidas.jpg)
 
 Pateicoties labiem ļaudīm otrajā dienā tiku pie jauniem Reebok apaviem. Priekšrocība tāda ka šiem apaviem ir ļoti plāns balsts respektīvi papēdis netiek saspiests, ir lieli caurumi pa kuriem smiltis tiek iekšā un tikpat ātri tiek laukā kombinācijā ar divam zeķēm man izdevās kāju nosargāt no smiltīm un jaunu tulznu veidošanās nenotika tik intensīvi. Kā trūkumu car minēt plāno zoli kas vāji absorbē nelīdzenumus un triecienus celim. 
 
-![Reebok](/images/2017-06-29-Kolka-Dubulti/reebok.jpeg)
+![Reebok](/images/2017-05-29-Kolka-Dubulti/reebok.jpeg)
 
 
 Palielam jūs esat “bitīte” kas nepārtraukti apkopj savas kājas. Apstājāties atpūsties izvelkiet kājas no apaviem pažāvējat vējā (2–5 min pietiks) , noņemat zeķi apkopjat tulznas un tā katru reizi (kaut reizi stundā).
