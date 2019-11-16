@@ -5,7 +5,7 @@ title:  "Lambdas for extreme cheapskates"
 
 Intro
 ===================
-Its longs time since my last tech post. In this post I want to share my experience with AWS Lambdas and particularly how to work with them not paying much. One of my jobs is related to startups and as it often happens startup runs out of money and when it happens I have to pay for infrastructure out of my wallet. This situation makes me very motivated to “squeeze juice out of rock” and get as much as possible from AWS Lambdas paying as little as possible. 
+Its longs time since my last tech post. In this post I want to share my experience with AWS Lambdas and particularly how to work with them not paying much. One of my jobs is related to startups and as it often happens startup runs out of money and when it happens I have to pay for infrastructure out of my wallet. This situation makes me very motivated to “squeeze the juice out of a rock” and get as much as possible from AWS Lambdas paying as little as possible. 
 
 9x suggestions how to run Lambdas as cheap as possible. 
 =========================================================
@@ -60,7 +60,7 @@ Next thing I did was to look on my code. My Lambda was write in java so some thi
 
  * Investigate dependencies and remove unused => less jar size less function memory required. 
  
- * Think how exception are thrown and cached, you want to fail (finish) you function execution as fast as possible. For example, if function works with queue you want to throw exception once there is network error or queue is empty and exit function execution. => less function run time less you pay
+ * Think how exception are thrown and cached, you want to fail (finish) you function execution as fast as possible. For example, if function works with queue you want to throw exception once there is network error or queue is empty and exit function execution. => less function run time less you pay.
 
  * Consider when you open connections. For example, if you need to take task from queue and put results in db it makes sense to :
 
@@ -124,7 +124,7 @@ In my functions example (executed on local machine with `-Xmx` = 256) you can se
 8 - Optimize for MEM or CPU
 --------------------------
 
-As mentioned before in AWS Lambda you pay for usage (function size mb * execution time). Most of time we want to use less memory but there are cases when our function is demanding lot of cpu and less memory. In these cases it makes sense to increase function memory size to get more cpu and execute function faster (lest execution time). But it really depends on what functions is doing.
+As mentioned before in AWS Lambda you pay for usage (function size mb * execution time). Most of time we want to use less memory but there are cases when our function is demanding lot of cpu and less memory. In these cases it makes sense to increase function memory size to get more cpu and execute function faster (lest execution time). But it depends on what functions is doing.
 
 
 9 - Think about how you execute function.  
@@ -140,4 +140,4 @@ Conclusion
 
 Lambdas is great way how to start fast hook up function with “API Gateway” or SNS write java code without Spring and dont care about threads. Unfortunately, if you want to be cost effective and/ or serve high load you will spend lot of time digging and understanding lambda specifics. Even when you will reach “nirvana” with your Lambda code there are other parts of infrastructure (database / LB / proxys / etc. ) that can become bottleneck, so the way of ~summary~ devops is to constant monitor/ investigate and improve. 
 
-BTW at moment I am open for contract work if you need help with Lambdas / cloud native stack / devops in general.  
+BTW at moment, I am open for contract work if you need help with Lambdas / cloud native stack / devops in general.  
