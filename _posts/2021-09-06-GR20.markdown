@@ -1,0 +1,243 @@
+---
+layout: post
+title:  "Korsika GR20 "
+---
+
+Ievads
+======
+
+Korsikas bruciniema gatavojos gandrīz divus gadus. Pirmajā gadā biju jau sapircis biļetes bet braucienu iztraucēja covids. Par laimi naudu par biļetēm dabūju atpakaļ un 2021 gadā izdevās noiet ziemeļu daļu no šīs interesantās takas.
+
+![GR20](/images/2021-09-06-GR20/2021-09-06at23.25.54.png)
+
+Nokļūšana 
+==========
+
+Opcijas ir daudz pacik uz korsiku var aizlidot, aizpeldēta ar prāmi viss beidzot no LV arī kādu gabalu nobraukt ar auto. Ilgi gomāju vai lidot uz **Nicu** un brauk ar prāmi vai lidot caur **Nicu** tranzītā uz korisku. Izvēlējos otro opciju jo uz **Nicu** divas reizes nedēļā lido AirBaltic un AirCorsa no Nicas var aizvizināt uz Calvi (kas ir netālu no trases sākuma). Gadijumā ja brauktu ar prāmi no **Nicas** tas prāsītu vairāk laika un prāmis neiet uz **Calvi** bet **Bastia** vai **Ajaccio** no kurām man vajadzētu meklēt transportu (drīzāk vilcienu) uz **Calvi** kas tuvāk startam. 
+
+Ekipējums 
+===========
+
+Šoreiz arkārtīgi rūpīgi domāju ko ņemt, ko neņemt, skaitiju gramus domāju un pārdomāju. Mans galvenais uzstādijums bija soma līdz 10kg. Jau no sākuma bija skaidrs ka tas ir nereāli pacik (guļamais = [telts / paklājiņš / guļammais] == 2.4 kg ) + soma (2 kg) + ēdamais (~9 dienas = 2.8 kg ) + ūdens 3L ~ 3 kg jau gandrīz ir 10 kg. Otrs koncepts būt neatkarīgam no kempingiem un tur nopērkamās pārtikas. Šo punktu arī pilnībā neizdevās izpildīt pacik lai mazinātu svaru nolēmu vakariņas (dehidrēto pārtiku) ņemt uz 9 dienām, batoniņus uz 6 dienām utt.
+
+Galvenās pozīcijas uz kurām izdevās ietaupīt svaru : 
+
+* Jauns dūņu guļammais, pareizāk guļamsega "quilt" (Thermarest 2020 Corus 20 Down Quilt ) 720 gr (komforts 0', ļoti kompakta ). 
+* Jauna vienvietīgā telts MSR Hubba NX (~ 1190 gr + paliknis uz zemes = ~100 gr).
+* Dehidrētā pārtika TRAVELLUNCH 125 gr/ ēdienreize. 
+* Piepūšamais paklājiņš Forclaz Trek 700 Air L (520 gr)
+* Deglis aliekspress (~ 15 gr)
+
+Pilnais ekipējuma saraksts : 
+
+**Elektronika** ( ~815 gr )
+
+* Somiņa (118 gr) 
+* Power bank (Xiaomi 10000mAh 18W) (288 gr ) mob tel. (170 gr) + ladetajs (56 gr) 
+* Austiņas bezvadu + vadu 
+* Lukturits ( lampa / aķis / vads ) ( 85 gr) 
+* Pulkstenis + ladetajs (8 gr) 
+* GoPro (50 gr ) + kastīte 
+
+Aiz borta : 
+
+* Saules panelis ( ~300 gr)~
+* pāreja rozetei 
+
+**Ekipējums** ( ~ 3 200 gr )
+
+* Nuujas ( 235 gr x2)
+* Nazis sveices ( 135 gr ) 
+* Saules-Briles ar kastiiti
+* Karte (175 gr) + grāmata ( 324 gr) 
+* Kaprona auklas
+* Pāris savilcēji
+* Soma Osprey Atmos AG 65 ( 2 100 gr)
+* Auduma ķesele
+
+**Apģērbs** 
+
+* Udens necaurl. maisinnss
+* Krekls ar garaam rokaam ( lai neapdegtu)
+* Veja jaka 
+* Šorti parastie + kalnu 
+* Zeķes ( 1x kompresijas, 1x paargaajiena, 1x guleessanas ) Galvas lakats (naktii + sviedriem) / Saules cepure + Cimdi ( skriessanas melnie )
+* Kalnu zābaki
+* Trusi skriessanas + maiņas parastie
+* čības ( lidojumam / kempingam )
+* Parasts krekls ( ar ko lidot / gulēt nakti ) 
+* Plīša veste (3šais slānis)
+
+Aiz borta: 
+
+* Pančo ( pret lietu)
+* Termo veļa 
+
+**Aptieciņa** ( ~ 200 gr )
+
+* Auss aizbāžņi (nakts mieram) 
+* Aptieciņas somiņa
+* Plaksteri parastie / elpojošie daudz / prettulznu plaksteri (viens iepakojums) / adata + diegs + šķērītes
+* Marlīte
+* Acs pilieni (tīrīšanai ) + sterilās salvetes
+* Saberzumiem sudo krems
+* Ibumetins 400 
+* Kāju krēms ( mazo burku )
+* Streptocits
+* Spirta salvetes ( 10x )
+* Roku šķidrums (cik var lidmašīnā 50ml ? ) / maska vienreizējās 5x / maska auduma / saules krems + lupu krems
+* Ogle
+
+Aiz borta: 
+
+* Elastīgā saite ( sadzītiem ceļiem )
+* Udeņraža pārskābe 
+
+**Higēna** ( ~ 200 gr ? )
+
+* Toletes papīrs / savetes
+* Dvielis kompaktais (135 gr) 
+* Zobu birste (īsā) / pasta (5ml) 
+* Ziepju plāksnītes/papīrs
+
+Aiz borta: 
+
+* Mazas ziepites
+
+**Gulēšana** ( ~2 400 gr )
+
+* Guļammaiss-sega (dūņuu ) (~772 gr)
+* Telts 1P ( 1190 gr )
+* Paklājiņš (piepūšamais) + labošanas komplekts (520 gr) 
+* Tents zem telts (120 gr)
+
+**Paika**( ~315 gr / ~1370 kcal dienā )( pako ūdensmaisā)
+
+* Ūdens pudeles 2x 1 L ( 2000 gr ) + 1 L (rezerves)
+* Tēja beramā (2g x 10 ) / kafija (3g x 10 ) / sausais piens (5g x 10 ) = 100 gr (10 gr dienā)
+* Tūristu brokastis (10 porcijas) ( 125 gr / gab. ) (540 kcal) 
+* Putras (10 porcijas) ( 30 gr viena) (110 kcal)
+* Rozines + rieksti ( 10 gr viena )
+* Elektrizes tabletes (50 gr)
+* Batoniņi 2 gab dienā x 10 dienas ( flapjack 80 gr / 363 kcal x15 + bounce 30 gr / 159 kcal x5 = ~135 gr / dienaa)
+* Vitināta gaļa ( pērku uz vietas ) (500 kcal / 100 gr )
+
+**Virtuve** (~ 200 gr) (pako krūzē)
+
+* Titana kruze (100 gr) /  garā karote 
+* Gāzes balons (100 gr) (jāpērk uz vietas)
+* Deglis (serkociņi + šķiltava )
+
+Aiz borta: 
+
+* Pāreja gāzes balonam
+* Ūdens filtrs (35 gr.)
+
+**Dokumenti** 
+
+* Skaidra nauda ( 7 / 12 eur telts vieta) (mazas vienības) 
+* Pase / id 
+* Covid pass (vairakas izdrukas)
+* Apliecinājums FR 
+* MasterCard karte
+
+Svars uz papīra :
+
+```
+Elektronika = 815
+Ekipejums = 3 200
+Gulešana =  2 400
+Ēšana = 3 100  (neieskaitot ūdeni)
+Virtuve = 235
+Apģerbs = ?
+Aptieka = 300 ?
+Higena = 200 ?
+--------------
+Kopā :  10 250
+```
+
+Lidostā soma ar iepakotiem zābakiem bez ūdens bija ~ 12 kg :(
+Ja pieņemt ka zābaki ~ 1.5 kg un pārējais svars ( ~ 500 gr ) ir no apģērba. 
+
+
+Diena 0 (29.07.2021) 
+=====================
+
+
+Agrais starts lidojums ir ~7 am, 3-4 h miega un uzlidostu. ~11 am esmu Nicā laiciņš silts. Sameklēju saules krēmu (pēc sievas norādijumiem gadu vecu nedrīks lietot). Pāris stundas pa lidostu un ap 4pm jau Calvi. Neliels apjukums ar transportu, sabiediskā nav lai tiktu uz pilsētas centru, pa 20 eur mani aizved taksits. Karstums ievērības cienīgs, izmetu līkumu pa pilsētu meklēju lielveikalu lai nopirktu turistu gāzi. Atrodu bodi gāze ir! sapērku ūdeni / desu, pusdienās bagete un salāti. Dirnu stacijā gaidu autobusu uz Calenzana ( miests kur sākas taka). Buss ir klāt 8 pm un pilns ar turistiem, miestā visi dodas uz tuvējo kempingu celt teltis. Šis arī ir mirklis kad masku lietošana tiek aizmista jo nākamās dienas neviens viņas iekstelpā nelieto. Vakariņās atkal bagete, veders kņud no briestošā piedzīvojuma.
+
+Diena 1 (30.07.2021) 
+=====================
+
+Plānots: Calenzana -> Refuge d' Ortu di u Piobbu (12 km, uz augšu 1550m, lejup 235m, ~7st. ceļā)
+
+Eju klasisko taku no ziemeļiem uz dienvidiem, sekoju gida grāmatai kur posmi jau saplānoti pa 5-7 st. posmiem. Zinu ka pirmās dienas būs grūtākās, cenšos sāk agrāk bet 6.30 kad ceļos nometne jau zum pēc 7.30 am kad startēju nometnē maz cilvēku palikuši. Sāku "šturmēt" kalnu 8-9am saule jo normāli cepina, priecājos ka šoreiz paņēmu plato cepuri kas nosedz galvu/plecus nevajag smērēt ausis ar saules krēmu, kuru parasti sviedri izsmērē pa visurieni. Paceļam govis kazas daudz turisti kas mani apdzen un sadeguši koki, prātoju kā tas ir būt kalnos negaisa lakā. Esmu idzēris gandrīz 3 L ūdens priecājos ka tomēr ņēmu 3L ne 2L.  Ap 4pm esmu nometnē liela klints paugurs, rezervācijas man nav maksāju par vietu 12 eur. Nepierasts komforts kempingā ir mini bode, duša, virtuve ar gāzes plīti, blakus avots. Ir tik karsts ka nelieku teltij jumtu lai vējiņš vēdina, guļu ar skatu uz zvaigznēm. Strautā daudz mušu bail pildīt pudelēs, kārpos uz augšu līz atrodu vietu kur strauts iztek, gulēt eju 8pm, mobīlās zonas nav.  
+
+Diena 2 (31.07.2021) 
+=====================
+
+Plānots: Refuge dŌrtu di u Piobbu -> Refuge de Carozzu (8 km, uz augšu 750m, lejup 1050m, ~6.3st. ceļā)
+
+Cenšos celties vel agrāk (~5am modinātājs) citi ap to laiku pa tumsu jau startē. Man vajag 1st. iztaisīties ~5.30 am jau ir gaiš un nevajag lampu. Ceļš ved paugurā augšā, caur bērzu birzi, lejā pāri strautiņam un stāvā kalnā. Kalnu pāreja ir starp divām virsotnēm saucas **Bocca Piccaia 1950m**. Kalnā manu ka citi bakstas pa telefoniem izrādas ir zona, neliels videozvans ar mājām ir tieši laikā. Atlikusī diena pa virsotnēm un straujš kāpiens lejā uz kempingu. Diena ievelkas kāpjot lejā, ielejā vēja nekāda cepina nevāji citi turisti slēpjas alās, kopumā 8.5 st. Kempings tik mazs ka grūti atrast labu vietu teltij, uz vakaru vietas galīgi maz cilvēki ceļ teltis uz takas. Kempingā ~ganas~ blandas kazas, paguļu diendusu, vakarā vakariņas, auksta duša un 8 pm gulēt. Citiem turistiem sāk veidoties paterns pēc dienas kāpieniem pabalēties ar aliņiem kurus var iepirkt jebkurā kempingā, nosecinu ka ir svarīgi celt telti tālāk no balītes epicentra (pie galvenās kempinga mājas) un jo ātrāk ienāc kempingā jo labāku vietiņu vari dabūt. Kempingā manu vecākus ar diviem ~6-7 gadniekiem nevar saprast kā viņi te nokļuvuši jo neviena ceļa ciema dienas attālumā nav.
+
+Diena 3 (01.08.2021) 
+=====================
+
+Plānots: Refuge de Carozzu -> Ascu Stanga (6 km, uz augšu 860m, lejup 710m, ~5.3st. ceļā)
+
+Diena sākas ar pamatīgu jezgu jo nevaru atrast pārtikas maisu ar kafiju un batoniņiem, pārmeklēju vissu bet nav, sāku domāt te nu bija tūristu brālība kāds nofenderējis kamēr biju dušā. Papukojos sāku domāt vai varu startēt bez batoniņiem divas reizes izložņaju krūmus un IR! atrodu sav maisu sagrauztu kazas vainīgas vot kazas ne, zaudējumi puss batoniņs, sauja riekstu un caurs maiss. Taka ved pāri dzelzs tiltam un kalnā augšā- augšā parādas pirmie posmi ar ķēdēm, vietās kur itkā var sāpīgāk nokrist. Kāpiens kalnā ir nikns, sasvīstu, kalnu pārēja ir miglā tīta un pamatīgi pūš vējš, rokas dreb mainu kreklus un velku vesti / jaku / cimdus tik un tā salstu. Pāris desmit minūtes pa virsotnēm un jau redzu kempingu ielejā. Ļoti strauja taka lejup un ap dienas vidu jau esmu kempingā kas ir arī slēpošanas kurorts ar viesnīcu diviem krogiem un mazu veikaliņu. Palutinu sevi ar aliņu un ravioli konservu. Iemēģinu arī koplietošanas virtuvi ūdens sildīšanai, izdodas arī uzlādēt power banku. GoPro gļuko bija izlādējies jau dienas vidū kaut gan rādija divas strīpas. Laiks ir krietni vēsāks pēc pirmo dienu cepiena, stiprāks vējš un velk uz lietu kas tā arī nenolīst. Garstāvoklis ne šāds ne tāds prieks ka nogāju posmu bet ko īsti darīt pēc dienas vidus kad laiks ir līdz 8pm un nogurumiņs pieklājīgs nav skaidrs. 
+
+Diena 4 (02.08.2021) 
+=====================
+
+Plānots: Ascu Stanga -> ~~Auberge U Vallone~~ Refuge de Tighjettu (9 km, uz augšu 1250m, lejup 1230m, ~8st. ceļā)
+
+Itkā pirmās 3x dienas ir garām un kāpieniem jākļūst vieglākiem bet šī būs vien no grūtākajām dienām šinī ceļojumā. Pa nakti vējš purina telti, sākums viegls pa ieleju pāri koka tiltiņam tad uz augšu non stop 5st.! vietām četrāpus vietām ar ķēdi jo augstāk jo aukstāk. Mēģinu nesasvīst lai nepārsaltu, bet pēc pirmajām stundām jau esmu savilcis visu kas man ir. Priecājos ka neizmetu plīša vesti pēc pirmo dienu karstuma. Garām iet meitene un puisis maikā un šortos var redzēt ka viņiem ir auksti bet kaut kāda iemesla pēc nevelk neko siltāku, iedomājos ja man būtu tā kompaktā termo sega es viņu uzdāvinātu jo pūš pamatīgi un man salst. Ap dienas vidu esmu augšā **Pointe des Eboulis 2670m** blakus ir salas augstākā virsotne **Monte Cinto 2706m** bet man nav motivācijas turp doties gribas pēc iespējas ātrāk tikt lejā sasildīties. Ceļš ved pa lieliem akmens bluķiem un pāri ļoti stāvai korei uz otru ieleju, ļoti neomulīgi, vietām ir tik stāvs ka citi tūristi stāv un domā vai tiešām šeit ir taka. Pēc trijām stundām lejup redzu kempingu, pie ieejas jānovelk zābaki, iekša maza hipiju komūna, mazā telpā kas ir recepsija / veikals un virtuve sēž saimnieks un pavārs, pavārs pīpē un sūc aliņu pēc vajadzības no l-skapja izsniedz koliņas/aliņus. Kempinga vieta ir stāvā kalnā uz tāda kā liela klinšu bluķa negribas domāt kā te ir stipra lietus laikā bet skats tāds kā nevienā aribnb. Tikai kad esmu teltī saprotu ka šis ir nepareizais kempings gidā aprastītais ir stundas gājiena attālumā, esmu jau samaksājis takā nolemju palikt. Kempingā vienam onkam galīgi slikti laikam mugurā kaut kas saķīlējies paiet nevar rāpo vai ar balstu kempinga saimnieks nāk viņu raudzīt, domāju būs šovs jo sauks medi-hopteri bet nekā šonakt nekas neatlido. Jā satarpcitu lai cik čābīgs būtu kempings katram obligāti ir helīša nolaišanās vieta. 
+
+Diena 5 (03.08.2021) 
+=====================
+
+Plānots: Refuge de Tighjettu ->  Hotel Castel di Verigo (15 km, uz augšu 850m, lejup 870m, ~6st. ceļā)
+
+Ceļos 5 am ātri cilpoju lejā, pēc 40 min esmu otrā kempingā, 1.5 h uzrāpjos kalnā un tad lēna 2.5 stundu kāpiens lejā. Ceļš lejā ved gar kalnu upi kas vietām tek pa milzīgiem klints bluķiem kuros ūdens ir izskalojis tādus mazus basiniņus, kuros cilvēki plunčājas. Redzu tūristus uz zirgiem kurus vietējais ved kalnā. Izvelku nemanāmi kameru lai nofilmētu, onka sāk uz mani baurot, sākumā mēģinu angliski prasīt kas pa problēmu bet viņš tik auro, sāku uzvilkties un jau latviski viņam ielādēt atpakaļ 3stāvīgo kad aizķeros aiz krūma un nokrītu ar to arī mūsu komunikācija ir beigusies. Diena ievelkas saule cepj pat ejot lejā caur mežu, ienāku kempingā diezgan izpumpējies. Kempings ir gandrīz **** zvaigžņu = veikals ar salčuku un jogurtiem, duša ar silto ūdeni! un pat restorāns. Domāju nosvinēt pusceļu ar restorānu bet kājas pēc zābākiem tā smird ka nokautrējos iet, tā vietā apbalvoju sevi ar pupiņu-cīsiņu konservu, jogurtu un toletes papīru (cena tam ir nemmainīga kā alum = 1rullis = 1eur). Ir internets un prognoze rāda parīt lietu dikti negribas riskēt rāpties kalnā lietus laikā.  
+
+Diena 6 (04.08.2021) 
+=====================
+
+Plānots: Hotel Castel di Verigo -> Refuge de Manganu (17 km, uz augšu 670m, lejup 475m, ~5.45st. ceļā)
+
+Agrais starts, kalnā un gandrīz pa līdzenu atlikušos pacmit kilometrus pēc pusdienslaika esmu kempingā prātoju ko darīt jo nākamais posms ir ņiprs kāpiens kalnā dikti negribas to darīt lietū. Variants šturmēt kamērs saulains arīnevilina pacik 17 km un 5 st. aiz muguras. Prasju kempinga saimniekam kādas prognozes viņš saka ka nēlīs prasu vai viņš garantē, viņš rausta plecus. Kamēr prātuļoju jau ir ~2 pm un riskanti arī kalnā iet jo pavēls nolemju palikt. Mocos ar gulēšanu saules sakarsētajā teltī. Līdz vakaram kempings pilns līdz "lūpai", cilvēki ceļ teltis uz izteikti slīpām zemsedzēm. Pie dzeramā ūdens ņemšanas vietas veidojas rindas. Paterns vecais franči sūc alu un līksmo līdz 8pm, daudzus līdzgājējus jau zinu sejā. Ir divas jaunas meitenes kas izmocītām sejām rāpjas kalnā un milzīgas ķeseles rij riekstus. Ir franču kungs gadi ~60-70 kas ņipri rāpjas kalnā pīpē un kenpingos sūc aliņus. Vecāks vīrs tāpat skrien kā bulta kalnā smēķis lejā. Mana vecuma čalis ar garajiem zābakiem īsajām zeķēm un līdz asinīm zaberztām kājām. Incanti vērot tūristus kas ienāk kempingā liela daļa ar kaut ko mokas un cieš un liela daļa ir jauni sportiski pārsvarā paskrien uz takas man garām kā vējš. 
+
+Diena 7 (05.08.2021) 
+=====================
+
+Plānots: Refuge de Manganu -> Refuge de Petra Pina (10 km, uz augšu 980m, lejup 745m, ~7st. ceļā) + Refuge de Petra Pina -> Refuge de l'Onda (11 km, uz augšu 500m, lejup 900m, ~5st. ceļā)
+
+Panakti pa laikam līst no rīta norimst, 5am pārējie pakojas domāju ko darīt. Lai gan man ir viena rezerves diena dirnēt kempingā dienu negribas. Nolemju prasīt padomu kempinga vadītājam bet viņš protams nekur nav, nolemju iet un tiklīdz līs griezties atpakaļ. Debesis draudīgas pilnas mākoņiem, kalnš niprs stipra migla redzamība minimāla ļoti neomulīgi pat zinot ka cilvēki apkārt pa pilno. Pēc pāris stundu kāpiena tomēr pa mākoņu spraugām sāk parādīties saule, uzrāpjos kalnā un garstāvoklis uzlabojas jo pat ja sāks līt skriet izdevīgāk ir uz nākamo kempingu ne atpakaļ. Kalna gals arī ievērojamā augstumā ~2225 m **Bocca e Porte** ļoti stiprs vējš un migla nūjas noraso, pielietoju pēdējo viltību un laicīgi uzvilku garās kompresijas zeķes kas labāk nosedz kājas rezultātā tā nenosalstu kā ejot uz Eboulis. Cīnos ar kalnu korēm un jau ap pusdienām esmu kempingā **Petra Pina** kas ir diezgan augstu 1842m un vēš pūš nikni. Nolemju nepalikt un kāpt zemāk kā nekā man palikuši tikai divi posmi un negribas dirnēt kempingā 8 h. līdz gulēt iešanai. Ceļš lejup viegls jo zemāk kāpju jo siltāk un vairāk saules. Paceļam atkal upe ar izgrzutiem baseiniņiem citi puspliki peldas žāvē teltis es dodu gāzi grīdā. Ap 2-3 pm sāku kāpienu no ielejas nākamajā kalnā kur kempings, iet gana grūti un lēni bet ar ekstra dopingu podkastu formā tomēr uzčinčinu līdz kempingam. Šinī atkal ir odziņa kempings ir aitu aplokā kur aitas izdzītas laukā un kempinga mājā ir izlejamais alus. Bonusā nereāli stiprs vējš ceļot telti vienu reizi dabūju arī tai skriet pakaļ. Esmu tik pārguris ka aizeju gulēt bez vakriņām domāju tikai par to cik tuvu esmu finišam. Ar ēšanu arvien vairāk attālinos no sava plānotā grafika ēst pugru brokastīs, 3x batoniņus ceļā un dehidrēto pārtiku vakariņās. Putra man riebjas un sāku to izlaist, batoniņus arī nespēju sevī sabāzt pietiekami daudz, ja ienāku kempingā dienas vidū nopērku un apēdu kādu konservu pēdējās dienās ēdu pa divām tūristu brokastīm dienā. 
+
+Diena 8 (06.08.2021) 
+=====================
+
+Plānots: Refuge de l'Onda -> Vizzavona (11 km, uz augšu 670m, lejup 1180m, ~6st. ceļā)
+
+Panakti pamatīgi purina vējš telts liecas un lokas bet šķiet investīcija šinī modelī ir atmaksājusies arī dūņu sega atpelna sevi uz 100% jo gulēšanas komforts ir pāri ekspektācijām. Rīts vējains mākoņi draudīgi dodos pēdējā kaujā ar korsikas granīta ~~bluķi~~ kalniem. Pēdējā virsotne nenāk viegli liekas ka tūlīt jau būs bet nē aizvienas kores ir nākamā. Viss beidzot kalns padodas virsotne **Punta Muratello 2141m** ir majestātiska! skats uz blakus kalnu kurā triecas mākoņu ordas un nespēj to uzveikt uz mūžu paliks atmiņā. Ceļš lejup garš pilsēta kā nav tā nav vienu brīdi liekas ka sagriežu celi sāpes iezogas bet pēc laika pāriet 1 am pēc vietējā laika finišēju esmu pārlaimīgs pārvilkt kalnu zābakus uz šļopkām un parastajiem šortiem. Meklēju krogu bet nekā nav vienīgais ar ko varu sevi apbalvot ir divi mazie aliņi un čipši. Pēc pāris stundām kāpju vilcienā uz **Ajaccio** domāju par tiem kas turpinās taku vel 7 posmus bet nožēlas nav jo esmu izdarijis to pēc kā šeit braucu. 
+
+Diena 8+ 
+========
+
+Jau vilcienā uz **Ajaccio** sāku nojaust ko nelāgu nevaru telefonā dabūt viesnīcu viss pilns arī airbnb nekas nav pieejams. Iebraucu pilsētā un dodos uz tuvējo viesnīcu kur man skidro ka uz šodienu neviena numuriņa nav, garīgais sāk bojāties kaut kā tomēr sameklēju vienu numuriņu citā viesnīcā. Numuriņš protams neadekvāts cenai bet labāk nekā nekas. Sāku prātot ko darīt ir 5dienas vakars man ir viena diena ko ietaupiju 7+8 posmā (6diena), viena rezerves diena (7diena) un atpūtas diena (1diena) = 3 pilnas dienas un 4x naktis no kurām kur palikt man ir tikai vienu nakti. Var protams "bomžot" pa pludmali vai braukt atpakaļ uz kalnu kempingu. Punktu pieliek varen draņķīga itāļu pica ko man pasniedz vietējā 4.7* reitinga krogs (es lielāko daļu ceļa sapņoju ka ēdīšu labu itāļu picu!) un zvans no mājām par ķibelēm ar bērniem. Dodos uz viesnīcu drudžaini meklēju kā tikt prom par laimi AirBaltic lido uz nicus 2x reizes nedēļā un kā reiz 6dien, nevāji piemaksāju par biļešu maiņu un jau pēc 6h esmu ceļā uz lidostu.  
+
+Pārdomas par ekipējumu
+========================
+
+* 1.2 kg telts vienam ir fantastika kompakta/izturīga/viegla.
+* Osprey somas attaisno visas leģendas. 
+* Dehidrētā pārtika ir forši bet ilgstoši nav lietojama. 
+* Ķīniešu (aliexpress) degļi ir sūdīgi, jameklē kas labāks 
+* Lietum es biju absolūti negatavs, laikam jau šo likmi izdariju apzināti, šoreiz paveicās.
+* Zelta komplekts vasaras pārgājienā lai viss būtu pa divi. Divi šorti, divas maikas / trusi / zeķes ar vieniem ej kalnā otrus pārvelc kempingā uz nakti, kamēr mazgā utt. 
+* Kalnā virs > 2000 m vējš ir nopietna problēm pat vasarā. Trīs slāņi apģērba ne pa velti ir izdomāti. 
+* Ziepju papīrs/plāknsītes skan labi teorijā ne praksē. 
+* Bez kartīga šampūna / ziepēm siltai dušai jēga maza. 
+* Dzeramā ūdens patēriņš stipri mainas no gaisa tempratūras, karstā laikā tas var būt pat 3.5 - 4 L uz dienu.
+* Smēres/krēmus labāk pildīt mazos 5ml traukos. 
