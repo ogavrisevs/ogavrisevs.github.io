@@ -29,6 +29,7 @@ Galvenās pozīcijas uz kurām izdevās ietaupīt svaru :
 * Deglis aliekspress (~ 15 gr)
 
 Pilnais ekipējuma saraksts : 
+-----------------------------
 
 **Elektronika** ( ~815 gr )
 
@@ -58,12 +59,12 @@ Aiz borta :
 **Apģērbs** 
 
 * Udens necaurl. maisinnss
-* Krekls ar garaam rokaam ( lai neapdegtu)
+* Krekls ar garām rokām ( lai neapdegtu)
 * Veja jaka 
 * Šorti parastie + kalnu 
-* Zeķes ( 1x kompresijas, 1x paargaajiena, 1x guleessanas ) Galvas lakats (naktii + sviedriem) / Saules cepure + Cimdi ( skriessanas melnie )
+* Zeķes ( 1x kompresijas, 1x pārgājiena, 1x gulēšanas ) Galvas lakats (naktī + sviedriem) / saules cepure + Cimdi ( skriešanas melnie )
 * Kalnu zābaki
-* Trusi skriessanas + maiņas parastie
+* Trusi skriešanas + maiņas parastie
 * čības ( lidojumam / kempingam )
 * Parasts krekls ( ar ko lidot / gulēt nakti ) 
 * Plīša veste (3šais slānis)
@@ -119,7 +120,7 @@ Aiz borta:
 * Putras (10 porcijas) ( 30 gr viena) (110 kcal)
 * Rozines + rieksti ( 10 gr viena )
 * Elektrizes tabletes (50 gr)
-* Batoniņi 2 gab dienā x 10 dienas ( flapjack 80 gr / 363 kcal x15 + bounce 30 gr / 159 kcal x5 = ~135 gr / dienaa)
+* Batoniņi 2 gab dienā x 10 dienas ( flapjack 80 gr / 363 kcal x15 + bounce 30 gr / 159 kcal x5 = ~135 gr / dienā)
 * Vitināta gaļa ( pērku uz vietas ) (500 kcal / 100 gr )
 
 **Virtuve** (~ 200 gr) (pako krūzē)
@@ -156,8 +157,7 @@ Higena = 200 ?
 Kopā :  10 250
 ```
 
-Lidostā soma ar iepakotiem zābakiem bez ūdens bija ~ 12 kg :(
-Ja pieņemt ka zābaki ~ 1.5 kg un pārējais svars ( ~ 500 gr ) ir no apģērba. 
+Lidostā soma ar iepakotiem zābakiem bez ūdens bija ~ 12 kg. Var pieņemt ka zābaki ~ 1.5 kg un pārējais svars ( ~ 500 gr ) ir no apģērba. 
 
 
 Diena 0 (29.07.2021) 
@@ -171,21 +171,21 @@ Diena 1 (30.07.2021)
 
 Plānots: Calenzana -> Refuge d' Ortu di u Piobbu (12 km, uz augšu 1550m, lejup 235m, ~7st. ceļā)
 
-Eju klasisko taku no ziemeļiem uz dienvidiem, sekoju gida grāmatai kur posmi jau saplānoti pa 5-7 st. posmiem. Zinu ka pirmās dienas būs grūtākās, cenšos sāk agrāk bet 6.30 kad ceļos nometne jau zum pēc 7.30 am kad startēju nometnē maz cilvēku palikuši. Sāku "šturmēt" kalnu 8-9am saule jo normāli cepina, priecājos ka šoreiz paņēmu plato cepuri kas nosedz galvu/plecus nevajag smērēt ausis ar saules krēmu, kuru parasti sviedri izsmērē pa visurieni. Paceļam govis kazas daudz turisti kas mani apdzen un sadeguši koki, prātoju kā tas ir būt kalnos negaisa lakā. Esmu idzēris gandrīz 3 L ūdens priecājos ka tomēr ņēmu 3L ne 2L.  Ap 4pm esmu nometnē liela klints paugurs, rezervācijas man nav maksāju par vietu 12 eur. Nepierasts komforts kempingā ir mini bode, duša, virtuve ar gāzes plīti, blakus avots. Ir tik karsts ka nelieku teltij jumtu lai vējiņš vēdina, guļu ar skatu uz zvaigznēm. Strautā daudz mušu bail pildīt pudelēs, kārpos uz augšu līz atrodu vietu kur strauts iztek, gulēt eju 8pm, mobīlās zonas nav.  
+Eju klasisko taku no ziemeļiem uz dienvidiem, sekoju gida grāmatai kur posmi jau saplānoti pa 5-7 st. posmiem. Zinu ka pirmās dienas būs grūtākās, cenšos sāk agrāk bet 6.30 kad ceļos nometne jau zum pēc 7.30 am kad startēju nometnē maz cilvēku palikuši. Sāku "šturmēt" kalnu 8-9am saule jo normāli cepina, priecājos ka šoreiz paņēmu plato cepuri kas nosedz galvu/plecus nevajag smērēt ausis ar saules krēmu, kuru parasti sviedri izsmērē pa visurieni. Paceļam govis, kazas, daudz turisti kas mani apdzen un sadeguši koki, prātoju kā tas ir būt kalnos negaisa lakā. Esmu idzēris gandrīz 3 L ūdens priecājos ka tomēr ņēmu 3L ne 2L. Ap 4pm esmu nometnē liela klints paugurs, rezervācijas man nav maksāju par vietu 12 eur. Nepierasts komforts kempingā ir mini bode, duša, virtuve ar gāzes plīti, blakus avots. Ir tik karsts ka nelieku teltij jumtu lai vējiņš vēdina, guļu ar skatu uz zvaigznēm. Strautā daudz mušu bail pildīt pudelēs, kārpos uz augšu līz atrodu vietu kur strauts iztek, gulēt eju 8pm, mobīlās zonas nav.  
 
 Diena 2 (31.07.2021) 
 =====================
 
 Plānots: Refuge dŌrtu di u Piobbu -> Refuge de Carozzu (8 km, uz augšu 750m, lejup 1050m, ~6.3st. ceļā)
 
-Cenšos celties vel agrāk (~5am modinātājs) citi ap to laiku pa tumsu jau startē. Man vajag 1st. iztaisīties ~5.30 am jau ir gaiš un nevajag lampu. Ceļš ved paugurā augšā, caur bērzu birzi, lejā pāri strautiņam un stāvā kalnā. Kalnu pāreja ir starp divām virsotnēm saucas **Bocca Piccaia 1950m**. Kalnā manu ka citi bakstas pa telefoniem izrādas ir zona, neliels videozvans ar mājām ir tieši laikā. Atlikusī diena pa virsotnēm un straujš kāpiens lejā uz kempingu. Diena ievelkas kāpjot lejā, ielejā vēja nekāda cepina nevāji citi turisti slēpjas alās, kopumā 8.5 st. Kempings tik mazs ka grūti atrast labu vietu teltij, uz vakaru vietas galīgi maz cilvēki ceļ teltis uz takas. Kempingā ~ganas~ blandas kazas, paguļu diendusu, vakarā vakariņas, auksta duša un 8 pm gulēt. Citiem turistiem sāk veidoties paterns pēc dienas kāpieniem pabalēties ar aliņiem kurus var iepirkt jebkurā kempingā, nosecinu ka ir svarīgi celt telti tālāk no balītes epicentra (pie galvenās kempinga mājas) un jo ātrāk ienāc kempingā jo labāku vietiņu vari dabūt. Kempingā manu vecākus ar diviem ~6-7 gadniekiem nevar saprast kā viņi te nokļuvuši jo neviena ceļa ciema dienas attālumā nav.
+Cenšos celties vel agrāk (~5am modinātājs) citi ap to laiku pa tumsu jau startē. Man vajag 1st. iztaisīties ~5.30 am jau ir gaiš un nevajag lampu. Ceļš ved paugurā augšā, caur bērzu birzi, lejā pāri strautiņam un stāvā kalnā. Kalnu pāreja ir starp divām virsotnēm saucas **Bocca Piccaia 1950m**. Kalnā manu ka citi bakstas pa telefoniem izrādas ir zona, neliels videozvans ar mājām ir tieši laikā. Atlikusī diena pa virsotnēm un straujš kāpiens lejā uz kempingu. Diena ievelkas kāpjot lejā, ielejā vēja nekāda cepina nevāji citi turisti slēpjas alās, kopumā 8.5 st. Kempings tik mazs ka grūti atrast labu vietu teltij, uz vakaru vietas galīgi maz cilvēki ceļ teltis uz takas. Kempingā ~~ganas~~ blandas kazas, paguļu diendusu, vakarā vakariņas, auksta duša un 8 pm gulēt. Citiem turistiem sāk veidoties paterns pēc dienas kāpieniem pabalēties ar aliņiem kurus var iepirkt jebkurā kempingā, nosecinu ka ir svarīgi celt telti tālāk no balītes epicentra (pie galvenās kempinga mājas) un jo ātrāk ienāc kempingā jo labāku vietiņu vari dabūt. Kempingā manu vecākus ar diviem ~6-7 gadniekiem nevar saprast kā viņi te nokļuvuši jo neviena ceļa, ciema dienas attālumā nav.
 
 Diena 3 (01.08.2021) 
 =====================
 
 Plānots: Refuge de Carozzu -> Ascu Stanga (6 km, uz augšu 860m, lejup 710m, ~5.3st. ceļā)
 
-Diena sākas ar pamatīgu jezgu jo nevaru atrast pārtikas maisu ar kafiju un batoniņiem, pārmeklēju vissu bet nav, sāku domāt te nu bija tūristu brālība kāds nofenderējis kamēr biju dušā. Papukojos sāku domāt vai varu startēt bez batoniņiem divas reizes izložņaju krūmus un IR! atrodu sav maisu sagrauztu kazas vainīgas vot kazas ne, zaudējumi puss batoniņs, sauja riekstu un caurs maiss. Taka ved pāri dzelzs tiltam un kalnā augšā- augšā parādas pirmie posmi ar ķēdēm, vietās kur itkā var sāpīgāk nokrist. Kāpiens kalnā ir nikns, sasvīstu, kalnu pārēja ir miglā tīta un pamatīgi pūš vējš, rokas dreb mainu kreklus un velku vesti / jaku / cimdus tik un tā salstu. Pāris desmit minūtes pa virsotnēm un jau redzu kempingu ielejā. Ļoti strauja taka lejup un ap dienas vidu jau esmu kempingā kas ir arī slēpošanas kurorts ar viesnīcu diviem krogiem un mazu veikaliņu. Palutinu sevi ar aliņu un ravioli konservu. Iemēģinu arī koplietošanas virtuvi ūdens sildīšanai, izdodas arī uzlādēt power banku. GoPro gļuko bija izlādējies jau dienas vidū kaut gan rādija divas strīpas. Laiks ir krietni vēsāks pēc pirmo dienu cepiena, stiprāks vējš un velk uz lietu kas tā arī nenolīst. Garstāvoklis ne šāds ne tāds prieks ka nogāju posmu bet ko īsti darīt pēc dienas vidus kad laiks ir līdz 8pm un nogurumiņs pieklājīgs nav skaidrs. 
+Diena sākas ar pamatīgu jezgu jo nevaru atrast pārtikas maisu ar kafiju un batoniņiem, pārmeklēju vissu bet nav, sāku domāt te nu bija tūristu brālība kāds nofenderējis kamēr biju dušā. Papukojos sāku domāt vai varu startēt bez batoniņiem divas reizes izložņaju krūmus un IR! atrodu savu maisu sagrauztu, kazas vainīgas vot kazas ne, zaudējumi puss batoniņs, sauja riekstu un caurs maiss. Taka ved pāri dzelzs tiltam un kalnā augšā- augšā parādas pirmie posmi ar ķēdēm, vietās kur itkā var sāpīgāk nokrist. Kāpiens kalnā ir nikns, sasvīstu, kalnu pārēja ir miglā tīta un pamatīgi pūš vējš, rokas dreb mainu kreklus un velku vesti / jaku / cimdus tik un tā salstu. Pāris desmit minūtes pa virsotnēm un jau redzu kempingu ielejā. Ļoti strauja taka lejup un ap dienas vidu jau esmu kempingā kas ir arī slēpošanas kurorts ar viesnīcu diviem krogiem un mazu veikaliņu. Palutinu sevi ar aliņu un ravioli konservu. Iemēģinu arī koplietošanas virtuvi ūdens sildīšanai, izdodas arī uzlādēt power banku. GoPro gļuko bija izlādējies jau dienas vidū kaut gan rādija divas strīpas. Laiks ir krietni vēsāks pēc pirmo dienu cepiena, stiprāks vējš un velk uz lietu kas tā arī nenolīst. Garstāvoklis ne šāds ne tāds prieks ka nogāju posmu bet ko īsti darīt pēc dienas vidus kad laiks ir līdz 8pm un nogurumiņs pieklājīgs nav skaidrs. 
 
 Diena 4 (02.08.2021) 
 =====================
@@ -206,7 +206,7 @@ Diena 6 (04.08.2021)
 
 Plānots: Hotel Castel di Verigo -> Refuge de Manganu (17 km, uz augšu 670m, lejup 475m, ~5.45st. ceļā)
 
-Agrais starts, kalnā un gandrīz pa līdzenu atlikušos pacmit kilometrus pēc pusdienslaika esmu kempingā prātoju ko darīt jo nākamais posms ir ņiprs kāpiens kalnā dikti negribas to darīt lietū. Variants šturmēt kamērs saulains arīnevilina pacik 17 km un 5 st. aiz muguras. Prasju kempinga saimniekam kādas prognozes viņš saka ka nēlīs prasu vai viņš garantē, viņš rausta plecus. Kamēr prātuļoju jau ir ~2 pm un riskanti arī kalnā iet jo pavēls nolemju palikt. Mocos ar gulēšanu saules sakarsētajā teltī. Līdz vakaram kempings pilns līdz "lūpai", cilvēki ceļ teltis uz izteikti slīpām zemsedzēm. Pie dzeramā ūdens ņemšanas vietas veidojas rindas. Paterns vecais franči sūc alu un līksmo līdz 8pm, daudzus līdzgājējus jau zinu sejā. Ir divas jaunas meitenes kas izmocītām sejām rāpjas kalnā un milzīgas ķeseles rij riekstus. Ir franču kungs gadi ~60-70 kas ņipri rāpjas kalnā pīpē un kenpingos sūc aliņus. Vecāks vīrs tāpat skrien kā bulta kalnā smēķis lejā. Mana vecuma čalis ar garajiem zābakiem īsajām zeķēm un līdz asinīm zaberztām kājām. Incanti vērot tūristus kas ienāk kempingā liela daļa ar kaut ko mokas un cieš un liela daļa ir jauni sportiski pārsvarā paskrien uz takas man garām kā vējš. 
+Agrais starts, kalnā augšā un gandrīz pa līdzenu atlikušos pacmit kilometrus pēc pusdienslaika esmu kempingā prātoju ko darīt jo nākamais posms ir ņiprs kāpiens kalnā dikti negribas to darīt lietū. Variants šturmēt kamēr saulains arī nevilina pacik 17 km un 5 st. aiz muguras. Prasju kempinga saimniekam kādas prognozes viņš saka ka nēlīs, prasu vai viņš garantē, viņš rausta plecus. Kamēr prātuļoju jau ir ~2 pm un riskanti arī kalnā iet jo pavēls, nolemju palikt. Mocos ar gulēšanu saules sakarsētajā teltī. Līdz vakaram kempings pilns līdz "lūpai", cilvēki ceļ teltis uz izteikti slīpām zemsedzēm. Pie dzeramā ūdens ņemšanas vietas veidojas rindas. Paterns vecais franči sūc alu un līksmo līdz 8pm, daudzus līdzgājējus jau zinu sejā. Ir divas jaunas meitenes kas izmocītām sejām rāpjas kalnā un milzīgas ķeseles rij riekstus. Ir franču kungs gadi ~60-70 kas ņipri rāpjas kalnā pīpē un kenpingos sūc aliņus. Vecāks vīrs tāpat skrien kā bulta kalnā smēķis lejā. Mana vecuma čalis ar garajiem zābakiem īsajām zeķēm un līdz asinīm saberztām kājām. Incanti vērot tūristus kas ienāk kempingā, liela daļa ar kaut ko mokas un cieš un liela daļa ir jauni sportiski pārsvarā paskrien uz takas man garām kā vējš. 
 
 Diena 7 (05.08.2021) 
 =====================
@@ -225,7 +225,7 @@ Panakti pamatīgi purina vējš telts liecas un lokas bet šķiet investīcija �
 Diena 8+ 
 ========
 
-Jau vilcienā uz **Ajaccio** sāku nojaust ko nelāgu nevaru telefonā dabūt viesnīcu viss pilns arī airbnb nekas nav pieejams. Iebraucu pilsētā un dodos uz tuvējo viesnīcu kur man skidro ka uz šodienu neviena numuriņa nav, garīgais sāk bojāties kaut kā tomēr sameklēju vienu numuriņu citā viesnīcā. Numuriņš protams neadekvāts cenai bet labāk nekā nekas. Sāku prātot ko darīt ir 5dienas vakars man ir viena diena ko ietaupiju 7+8 posmā (6diena), viena rezerves diena (7diena) un atpūtas diena (1diena) = 3 pilnas dienas un 4x naktis no kurām kur palikt man ir tikai vienu nakti. Var protams "bomžot" pa pludmali vai braukt atpakaļ uz kalnu kempingu. Punktu pieliek varen draņķīga itāļu pica ko man pasniedz vietējā 4.7* reitinga krogs (es lielāko daļu ceļa sapņoju ka ēdīšu labu itāļu picu!) un zvans no mājām par ķibelēm ar bērniem. Dodos uz viesnīcu drudžaini meklēju kā tikt prom par laimi AirBaltic lido uz nicus 2x reizes nedēļā un kā reiz 6dien, nevāji piemaksāju par biļešu maiņu un jau pēc 6h esmu ceļā uz lidostu.  
+Jau vilcienā uz **Ajaccio** sāku nojaust ko nelāgu, nevaru telefonā dabūt viesnīcu, viss pilns arī airbnb nekas nav pieejams. Iebraucu pilsētā un dodos uz tuvējo viesnīcu kur man skidro ka uz šodienu neviena numuriņa nav, garīgais sāk bojāties kaut kā tomēr sameklēju vienu numuriņu citā viesnīcā. Numuriņš protams neadekvāts cenai bet labāk nekā nekas. Sāku prātot ko darīt ir 5dienas vakars man ir viena diena ko ietaupiju 7+8 posmā (6diena), viena rezerves diena (7diena) un atpūtas diena (1diena) = 3 pilnas dienas un 4x naktis no kurām kur palikt man ir tikai vienu nakti. Var protams "bomžot" pa pludmali vai braukt atpakaļ uz kalnu kempingu bet tas nevilina. Punktu pieliek varen draņķīga itāļu pica ko man pasniedz vietējais 4.7* krogs (es lielāko daļu ceļa sapņoju ka ēdīšu labu itāļu picu!) un zvans no mājām par ķibelēm ar bērniem. Dodos uz viesnīcu, drudžaini meklēju kā tikt prom, par laimi AirBaltic lido uz **Nicus** 2x reizes nedēļā un kā reiz 6dien, nevāji piemaksāju par biļešu maiņu un jau pēc 6h esmu ceļā uz lidostu.  
 
 Pārdomas par ekipējumu
 ========================
@@ -236,8 +236,11 @@ Pārdomas par ekipējumu
 * Ķīniešu (aliexpress) degļi ir sūdīgi, jameklē kas labāks 
 * Lietum es biju absolūti negatavs, laikam jau šo likmi izdariju apzināti, šoreiz paveicās.
 * Zelta komplekts vasaras pārgājienā lai viss būtu pa divi. Divi šorti, divas maikas / trusi / zeķes ar vieniem ej kalnā otrus pārvelc kempingā uz nakti, kamēr mazgā utt. 
-* Kalnā virs > 2000 m vējš ir nopietna problēm pat vasarā. Trīs slāņi apģērba ne pa velti ir izdomāti. 
+* Kalnā virs > 2000 m vējš ir nopietna problēm pat vasarā, trīs slāņi apģērba ne pa velti ir izdomāti. 
 * Ziepju papīrs/plāknsītes skan labi teorijā ne praksē. 
 * Bez kartīga šampūna / ziepēm siltai dušai jēga maza. 
 * Dzeramā ūdens patēriņš stipri mainas no gaisa tempratūras, karstā laikā tas var būt pat 3.5 - 4 L uz dienu.
 * Smēres/krēmus labāk pildīt mazos 5ml traukos. 
+* Gļukains GoPro un mobīlais ar sasistu kameras stiklu nav priekšnosacijums labiem "bilžukiem".
+* Lai gan pietiek ar eID karti pase tomēr dod papildus pārliecību \
+* Decatilona trekinga zeķes ar dubulto slāni pozitīvi pārsteidz.
