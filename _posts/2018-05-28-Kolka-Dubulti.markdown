@@ -6,7 +6,7 @@ title:  "Pārgājiens Kolka-Dubulti 2018"
 Kolka Dubulti 2018
 ===================
 
-Vel viens gads, vel viens kolka-dubulti pārgājiens. Ir pagājušas 16 st. kopš finiša un 11 st. miega pāris atziņas ko guvu šinī gadā kā papildinājums tam ko rakstiju [pāgājušo gad](https://ogavrisevs.github.io/2017/05/29/Kolka-Dubulti/).
+Vel viens gads, vel viens kolka-dubulti pārgājiens. Ir pagājušas 16 st. kopš finiša un 11 st. miega pāris atziņas ko guvu šinī gadā kā papildinājums tam ko rakstiju [pāgājušo gad](/2017/05/29/Kolka-Dubulti/).
 
 * Krokši rulē ! Kā jau iepriekš minēju jāņem līdz ir divi apavi un krokši ir ideāla otro apavu izvēle jo kāja ventelējas tik ļoti nesakarst un neberžas pret apaviem. Mana tehnika vilkt krokšus kur ir līdzens segums (šoseja) vai pludmale kur ir mitras/cietas smiltis.
 

@@ -17,7 +17,7 @@ __Table Of Content__
 Architecture overview
 ======================
 
-![Architecture overview](/images/architecture.png)
+![Architecture overview](/images/2016-02-22-docker-in-scale/architecture.png)
 
 As mentioned in front we will have AWS Route53 DNS name pointing to ELB. ELB itself will register all running containers within Jenkins Master. We will not use `sticky` sessions so each time user refresh page he can be redirected to any of containers running Jenkins Master. Containers will be served on AWS ECS cluster any failed containers will be restarted or rerun by AWS ECS scheduler. Actual build agents (EC2 instances) will be created and attached to Jenkins Master executor pool by `EC2` plugin. It allows to respond to any load demand (requests to build docker containers ) and scale-up or down within ~90 sec. (precise time depends on  AWS EC2 instance type ).      
 
@@ -243,7 +243,7 @@ packages:
 
 Now all we need to do is set label to new slave executors and reuse this label in Jenkins jobs where particular docker build steps will be described. When new Jenkins job will be placed in job queue Jenkins will search for executor with particular label and if no executor will be found Jenkins will spin-up new slave to satisfy job dependency for label.  
 
-![Jenkins Job Labels](/images/jenkins_labels.png)
+![Jenkins Job Labels](/images/2016-02-22-docker-in-scale/jenkins_labels.png)
 
 Fault tolerance
 ================
@@ -255,18 +255,18 @@ Jenkins Master AWS EC2 instance is lost
 
 In this case AWS ASG will spot number of healthy instances is under threshold and will try to fix this by spinning up new AWS EC2 instances. Amount of time required to create new instance depends on EC2 instance type, AWS ASG settings and amount of provisioning needs to be applied. In our example its about 3-4 min.
 
-![AWS ASG](/images/aws_asg.png)
+![AWS ASG](/images/2016-02-22-docker-in-scale/aws_asg.png)
 
 Jenkins Master is corrupted
 ----------------------------
 
 If for some reason Jenkins Master stops working JVM process exits, container will change state from `RUNNING` to `STOPPED` ( for example JVM dies with not enough memory error, etc). AWS ECS scheduler will try to restore cluster state and spin up new containers. Also this applies if instance is lost and new EC2 instance  is created AWS ECS will start new container on new instance as soon as instance will join ECS cluster.    
 
-![AWS ECS](/images/aws_ecs.png)
+![AWS ECS](/images/2016-02-22-docker-in-scale/aws_ecs.png)
 
 In setup with one ELB and at least two Jenkins masters, failure of one jenkins master instance or jenkins master container will not affect end user because ELB in doing constant health check for jenkins process running in container. These are simple HTTP request on `/` endpoint but as soon as health check will fail EBL will stop forwarding traffic. And as soon as new container is started and ELB health check gets `HTTP 200` response `live` traffic will be forwarded to new container.   
 
-![ELB health check](/images/elb_health_check_s.png)
+![ELB health check](/images/2016-02-22-docker-in-scale/elb_health_check.png)
 
 Jenkins Slave is lost
 --------------------

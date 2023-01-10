@@ -3,7 +3,7 @@ layout: page
 title:  "About Me"
 ---
 
-![Oskars Gavrisevs](/images/profile_pic.jpg "Oskars Gavrisevs")
+![Oskars Gavrisevs](/images/about/profile_pic.jpg "Oskars Gavrisevs")
 
 Hi, my name is Oskars Gavrisevs, 14 years ago I discovered => you get paid good money for breaking and fixing computers since then I spent a lot of time and effort to masters these skills.
 
@@ -24,4 +24,4 @@ You can find more about me on :
 
 Contact ME :
 
-* **oskars[one-dot]gavrisevs[sobaka]gmail[single-dot]com**
+* **oskars[sobaka]gavrisevs[single-dot]lv**

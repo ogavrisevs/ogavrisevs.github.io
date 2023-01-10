@@ -9,9 +9,9 @@ kramdown:
   toc_levels:     1..6
 
 # Setup
-title:               ogavrisevs.github.io
+title:               oskars.gavrisevs.lv
 tagline:
-url:                 http://ogavrisevs.github.io
+url:                 http://oskars.gavrisevs.lv
 paginate:            1
 paginate_path:       "page:num"
 baseurl:             ""

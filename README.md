@@ -2,7 +2,7 @@
 About
 -----
 
-This repo contains private blog [ogavrisevs.github.io](http://ogavrisevs.github.io/) source code. Blog runs with Jekyll engine and serves on GitHub Pages.
+This repo contains private blog [oskars.gavrisevs.lv](http://oskars.gavrisevs.lv/) source code. Blog runs with Jekyll engine and serves on GitHub Pages.
 
 Run local with (Native Docker on mac) :
 ---------------  
@@ -14,3 +14,9 @@ Ref:
   [Pygments lexers](http://pygments.org/docs/lexers/)
 
   [Poole](https://github.com/poole/poole)
+
+Dev env on mac 
+--------------
+
+  brew install ruby
+  sudo gem install bundler
