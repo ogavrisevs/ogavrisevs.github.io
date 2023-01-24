@@ -7,7 +7,7 @@ This repo contains private blog [oskars.gavrisevs.lv](http://oskars.gavrisevs.lv
 Run local with (Native Docker on mac) :
 ---------------  
 
-    docker run -it -v "$PWD":/usr/src/app -p "4000:4000" starefossen/github-pages
+  docker run -it -v "$PWD":/usr/sr  c/app -p "4000:4000" starefossen/github-pages
 
 Ref:
 
